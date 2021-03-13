@@ -19,7 +19,7 @@ public class ToggleKanaType : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch (KanaGrid.KanaType)
+        switch (KanaGrid.kanaType)
         {
             default:
                 break;

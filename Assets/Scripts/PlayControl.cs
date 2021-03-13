@@ -15,7 +15,7 @@ public class PlayControl : MonoBehaviour
     {
         //Debug.Log($"which is null? slider? {Slider}");
         ///读取音量的值
-        Slider.value = PlayerPrefs.GetFloat("Volume", 0f);
+        Slider.value = PlayerPrefs.GetFloat("Volume", 0.5f);
     }
 
 

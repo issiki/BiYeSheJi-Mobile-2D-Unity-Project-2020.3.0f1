@@ -474,7 +474,7 @@ public class KanaVCam : MonoBehaviour
 
     public void GotoKana(string kana)
     {
-        switch (KanaGrid.KanaType)
+        switch (KanaGrid.kanaType)
         {
             default:
                 break;

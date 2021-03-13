@@ -18,7 +18,7 @@ public class KanaGrid : MonoBehaviour
         Katakana,
     }
     [Header("假名显示类型")]
-    public EKanaType KanaType;
+    public EKanaType kanaType;
 
     [Tooltip("当前假名")]
     public string CurrentKana;
@@ -123,7 +123,7 @@ public class KanaGrid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch (KanaType)
+        switch (kanaType)
         {
             ///平假名
             case EKanaType.Hiragana:
@@ -288,12 +288,12 @@ public class KanaGrid : MonoBehaviour
 
     public void 切换到平假名()
     {
-        KanaType = EKanaType.Hiragana;
+        kanaType = EKanaType.Hiragana;
     }
 
     public void 切换到片假名()
     {
-        KanaType = EKanaType.Katakana;
+        kanaType = EKanaType.Katakana;
     }
 
     public void ChangeKanaType(string kanaType)
@@ -307,27 +307,27 @@ public class KanaGrid : MonoBehaviour
             case "hira":///简写
             case "hiragana":///完整
             case "hirakana":///误写
-                KanaType = EKanaType.Hiragana;
+                this.kanaType = EKanaType.Hiragana;
                 break;
             ///片假名
             case "kata":
             case "katakana":
-                KanaType = EKanaType.Katakana;
+                this.kanaType = EKanaType.Katakana;
                 break;
         }
     }
 
     public void ToggleKanaType()
     {
-        switch (KanaType)
+        switch (kanaType)
         {
             default:
                 break;
             case EKanaType.Hiragana:
-                KanaType = EKanaType.Katakana;
+                kanaType = EKanaType.Katakana;
                 break;
             case EKanaType.Katakana:
-                KanaType = EKanaType.Hiragana;
+                kanaType = EKanaType.Hiragana;
                 break;
         }
     }

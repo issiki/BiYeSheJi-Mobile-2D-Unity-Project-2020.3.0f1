@@ -285,7 +285,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -300,7 +300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -909,6 +909,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5953348461973115339, guid: 371b47e8db8ffac42b485a692f72f094, type: 3}
       propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953348461973115339, guid: 371b47e8db8ffac42b485a692f72f094, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953348461973115339, guid: 371b47e8db8ffac42b485a692f72f094, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953348461973115339, guid: 371b47e8db8ffac42b485a692f72f094, type: 3}
+      propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8211756178364215664, guid: 371b47e8db8ffac42b485a692f72f094, type: 3}
@@ -1036,7 +1048,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -1051,7 +1063,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1526,7 +1538,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -1541,7 +1553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1902,7 +1914,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -1917,7 +1929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -2360,7 +2372,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -2375,7 +2387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -2509,7 +2521,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -2524,7 +2536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -3112,7 +3124,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -3127,7 +3139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -4277,7 +4289,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -4292,7 +4304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -4657,7 +4669,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -4672,7 +4684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -5280,7 +5292,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 480}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -5480,7 +5492,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -5495,7 +5507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -6137,7 +6149,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -6152,7 +6164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -6471,6 +6483,10 @@ PrefabInstance:
     - target: {fileID: 9105858702205284794, guid: 041c8e84c7b033a418f775f90684a731, type: 3}
       propertyPath: m_Name
       value: Placeholder
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105858702205284794, guid: 041c8e84c7b033a418f775f90684a731, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 041c8e84c7b033a418f775f90684a731, type: 3}
@@ -6984,6 +7000,106 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &733177963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733177967}
+  - component: {fileID: 733177966}
+  - component: {fileID: 733177965}
+  - component: {fileID: 733177964}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &733177964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733177963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &733177965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733177963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1805, y: 60}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &733177966
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733177963}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &733177967
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733177963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 862553845}
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &734628162 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 179352582992809664, guid: 371b47e8db8ffac42b485a692f72f094, type: 3}
@@ -7460,7 +7576,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -7475,7 +7591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -8191,6 +8307,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8211756178364215671, guid: 371b47e8db8ffac42b485a692f72f094, type: 3}
   m_PrefabInstance: {fileID: 860557300}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &862553845 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+  m_PrefabInstance: {fileID: 6636252774093638614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &862553846 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5223294142182065124, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+  m_PrefabInstance: {fileID: 6636252774093638614}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 019a254f0eda2da4c98ab1285ade739d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &863259925 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 179352582992809664, guid: 371b47e8db8ffac42b485a692f72f094, type: 3}
@@ -8563,7 +8695,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -8578,7 +8710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -9480,7 +9612,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 0.46
-  m_ReferenceResolution: {x: 220, y: 1400}
+  m_ReferenceResolution: {x: 260, y: 2340}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
@@ -9670,7 +9802,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -9685,7 +9817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -9819,7 +9951,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -9834,7 +9966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -9968,7 +10100,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -9983,7 +10115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -10170,11 +10302,19 @@ PrefabInstance:
       value: "\u3044"
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
@@ -10184,7 +10324,15 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 862553846}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -10194,12 +10342,20 @@ PrefabInstance:
       value: GotoKana
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: GotoKana
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: KanaPronunciation, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -10210,11 +10366,19 @@ PrefabInstance:
       value: i
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: i
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6186702780016754572, guid: 8157256483dd5c741b5194388817171b, type: 3}
@@ -10344,7 +10508,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -10359,7 +10523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -10551,7 +10715,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -10566,7 +10730,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -10705,7 +10869,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -10720,7 +10884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -11096,7 +11260,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -11111,7 +11275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -11245,7 +11409,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -11260,7 +11424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -11548,7 +11712,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -11563,7 +11727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -11697,7 +11861,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -11712,7 +11876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -11857,7 +12021,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -11872,7 +12036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -12280,7 +12444,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 370}
+  m_SizeDelta: {x: 280, y: 550}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1181282498
 MonoBehaviour:
@@ -12302,8 +12466,8 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 30, y: 30}
-  m_Spacing: {x: 0, y: 0}
+  m_CellSize: {x: 40, y: 40}
+  m_Spacing: {x: 5, y: 5}
   m_Constraint: 1
   m_ConstraintCount: 6
 --- !u!114 &1181282499
@@ -12321,7 +12485,7 @@ MonoBehaviour:
   _camera: {fileID: 519420031}
   _audioSource: {fileID: 519420035}
   _brain: {fileID: 519420034}
-  KanaType: 0
+  kanaType: 0
   CurrentKana: 
   ADanHeader: {fileID: 991647790}
   IDanHeader: {fileID: 2049499535}
@@ -12805,7 +12969,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -12820,7 +12984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -13566,7 +13730,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -13581,7 +13745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -13838,7 +14002,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -13853,7 +14017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -14339,8 +14503,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.000030517578, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 145.9, y: 33.2}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1373708074
 MonoBehaviour:
@@ -14521,7 +14685,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -14536,7 +14700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -15916,7 +16080,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -15931,7 +16095,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -16767,7 +16931,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -16782,7 +16946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -17026,7 +17190,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -17041,7 +17205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -17175,7 +17339,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -17190,7 +17354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -18436,7 +18600,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -18451,7 +18615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -18585,7 +18749,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -18600,7 +18764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -18854,7 +19018,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -18869,7 +19033,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -19014,7 +19178,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -19029,7 +19193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -19383,7 +19547,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -19398,7 +19562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -19644,7 +19808,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -19659,7 +19823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -20054,7 +20218,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -20069,7 +20233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -20203,7 +20367,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -20218,7 +20382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -21098,7 +21262,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -21113,7 +21277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -21276,10 +21440,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -21337,7 +21501,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -21352,7 +21516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -22111,7 +22275,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -22126,7 +22290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -22424,7 +22588,7 @@ PrefabInstance:
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
@@ -22439,7 +22603,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -22930,19 +23094,31 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 959380493}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 721058220}
+      objectReference: {fileID: 862553846}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 862553846}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
@@ -22954,12 +23130,20 @@ PrefabInstance:
       value: GotoKana
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: GotoKana
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: KanaPronunciation, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KanaVCam, Assembly-CSharp
+      value: KanaUI, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: KanaUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -22970,11 +23154,19 @@ PrefabInstance:
       value: a
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096716697571466842, guid: 8157256483dd5c741b5194388817171b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6186702780016754572, guid: 8157256483dd5c741b5194388817171b, type: 3}
@@ -23250,6 +23442,107 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1001 &6636252774093638614
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 733177967}
+    m_Modifications:
+    - target: {fileID: 5223294142182065124, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: kanaGrid
+      value: 
+      objectReference: {fileID: 1181282499}
+    - target: {fileID: 6636252774317477154, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_Name
+      value: Kana UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 254
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6636252774317477155, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 763118e8eec314d46b542b849e071e7d, type: 3}
 --- !u!114 &6895745216145491130
 MonoBehaviour:
   m_ObjectHideFlags: 0
