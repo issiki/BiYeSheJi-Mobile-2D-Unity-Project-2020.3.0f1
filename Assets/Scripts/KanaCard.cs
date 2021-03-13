@@ -6,47 +6,48 @@ using Cinemachine;
 [ExecuteInEditMode]
 public class KanaCard : MonoBehaviour
 {
+    [Header("ÂÞÂí×Ö")]
+    public TextMesh RomajiTextMesh;
+    [Header("¼ÙÃûÍ¼Æ¬")]
     public Sprite KanaSprite;
-    SpriteRenderer _kanaRenderer;
-
+    public SpriteRenderer KanaRenderer;
+    [Header("±ÊË³Í¼Æ¬")]
     public Sprite StrokeSprite;
-    SpriteRenderer _StrokeRenderer;
+    public SpriteRenderer StrokeRenderer;
 
     ////public string Romaji;
-    TextMesh _romajiTextMesh;
 
-    public float BoxColliderOffsetY = 3.5f;
-    public float BoxColliderWidth = 1f;
+    [Header("Åö×²Æ÷£¬ÓÃÓÚµã»÷·¢Éù")]
     /// <summary>
     /// ºÐÅö×²Æ÷
     /// </summary>
-    BoxCollider2D _box;
+    public BoxCollider2D Collider2D;
+    public float BoxColliderOffsetY = 3.5f;
+    public float BoxColliderWidth = 1f;
 
     void Start()
     {
 #if UNITY_EDITOR
-        _kanaRenderer = transform.Find("Kana Sprite").GetComponent<SpriteRenderer>();
-        _StrokeRenderer = transform.Find("Stroke Sprite").GetComponent<SpriteRenderer>();
+        //KanaRenderer = transform.Find("Kana Sprite").GetComponent<SpriteRenderer>();
+        //StrokeRenderer = transform.Find("Stroke Sprite").GetComponent<SpriteRenderer>();
 
-        var childTextMesh = transform.Find("Romaji Text Mesh");
-        _romajiTextMesh = childTextMesh.GetComponent<TextMesh>();
-        _box = GetComponent<BoxCollider2D>();
+        //var childTextMesh = transform.Find("Romaji Text Mesh");
+        //RomajiTextMesh = childTextMesh.GetComponent<TextMesh>();
+        //Collider2D = GetComponent<BoxCollider2D>();
 #endif
     }
 
     // Update is called once per frame
     void Update()
     {
-#if UNITY_EDITOR
-        _kanaRenderer.sprite = KanaSprite;
-        _StrokeRenderer.sprite = StrokeSprite;
-        _romajiTextMesh.text = gameObject.name;
+        KanaRenderer.sprite = KanaSprite;
+        StrokeRenderer.sprite = StrokeSprite;
+        RomajiTextMesh.text = gameObject.name;
 
-        var offset = _box.offset;
-        _box.offset = new Vector2(offset.x, BoxColliderOffsetY);
+        var offset = Collider2D.offset;
+        Collider2D.offset = new Vector2(offset.x, BoxColliderOffsetY);
 
-        var size = _box.size;
-        _box.size = new Vector2(BoxColliderWidth, size.y);
+        var size = Collider2D.size;
+        Collider2D.size = new Vector2(BoxColliderWidth, size.y);
     }
-#endif
 }

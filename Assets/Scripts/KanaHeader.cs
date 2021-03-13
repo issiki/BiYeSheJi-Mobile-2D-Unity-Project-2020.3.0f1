@@ -6,16 +6,16 @@ using UnityEngine.UI;
 [ExecuteInEditMode]
 public class KanaHeader : MonoBehaviour
 {
-    Text _text;
+    public Text Text;
     // Start is called before the first frame update
     void Start()
     {
-        _text = GetComponent<Text>();
+        //Text = GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        _text.text = gameObject.name;
+        Text.text = gameObject.name;
     }
 }

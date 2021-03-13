@@ -13,7 +13,7 @@ public class PlayControl : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log($"which is null? slider? {Slider}");
+        //Debug.Log($"which is null? slider? {Slider}");
         ///读取音量的值
         Slider.value = PlayerPrefs.GetFloat("Volume", 0f);
     }

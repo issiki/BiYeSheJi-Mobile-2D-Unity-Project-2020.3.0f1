@@ -10,16 +10,16 @@ public class KanaButton : MonoBehaviour
     /// <summary>
     /// 子物体的文字组件
     /// </summary>
-    Text _text;
+    public Text Text;
     // Start is called before the first frame update
     void Start()
     {
-        _text = transform.Find("Text").GetComponent<Text>();
+        //Text = transform.Find("Text").GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        _text.text = gameObject.name;
+        Text.text = gameObject.name;
     }
 }

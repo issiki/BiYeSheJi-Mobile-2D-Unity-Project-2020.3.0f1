@@ -5,7 +5,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class KanaPronunciation : MonoBehaviour
 {
-    Camera _camera;
+    public Camera Cam;
     public AudioSource AudioSource;
     public string LayerName;
 
@@ -80,7 +80,7 @@ public class KanaPronunciation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _camera = Camera.main;
+        //_camera = Camera.main;
     }
 
     // Update is called once per frame
@@ -90,7 +90,7 @@ public class KanaPronunciation : MonoBehaviour
         ///鼠标按下时发出检测射线
         if (Input.GetMouseButton(0))
         {
-            var mouseWorldPos = _camera.ScreenToWorldPoint(Input.mousePosition);
+            var mouseWorldPos = Cam.ScreenToWorldPoint(Input.mousePosition);
             var layerMask = LayerMask.NameToLayer(LayerName);
             var hit2d = Physics2D.Raycast(mouseWorldPos, Vector2.zero, 0, layerMask);
             if (hit2d.collider == null)
@@ -272,12 +272,14 @@ public class KanaPronunciation : MonoBehaviour
 
     void Play(AudioClip audioClip)
     {
+        /*
         ///如果声音仍在播放中，则不播放声音
         if (AudioSource.isPlaying)
         {
             Debug.Log($"播放中：{AudioSource.clip.name}");
             return;
         }
+        */
         ///如果未处于播放状态，则播放声音
         AudioSource.clip = audioClip;
         Debug.Log($"播放：{AudioSource.clip.name}");
