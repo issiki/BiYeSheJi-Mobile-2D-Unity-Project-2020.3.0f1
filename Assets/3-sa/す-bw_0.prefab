@@ -1,0 +1,784 @@
+ons.AggressiveInlining)]
+        public static uint3 operator - (uint3 val) { return new uint3 ((uint)-val.x, (uint)-val.y, (uint)-val.z); }
+
+
+        /// <summary>Returns the result of a componentwise unary plus operation on a uint3 vector.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator + (uint3 val) { return new uint3 (+val.x, +val.y, +val.z); }
+
+
+        /// <summary>Returns the result of a componentwise left shift operation on a uint3 vector by a number of bits specified by a single int.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator << (uint3 x, int n) { return new uint3 (x.x << n, x.y << n, x.z << n); }
+
+        /// <summary>Returns the result of a componentwise right shift operation on a uint3 vector by a number of bits specified by a single int.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator >> (uint3 x, int n) { return new uint3 (x.x >> n, x.y >> n, x.z >> n); }
+
+        /// <summary>Returns the result of a componentwise equality operation on two uint3 vectors.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3 operator == (uint3 lhs, uint3 rhs) { return new bool3 (lhs.x == rhs.x, lhs.y == rhs.y, lhs.z == rhs.z); }
+
+        /// <summary>Returns the result of a componentwise equality operation on a uint3 vector and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3 operator == (uint3 lhs, uint rhs) { return new bool3 (lhs.x == rhs, lhs.y == rhs, lhs.z == rhs); }
+
+        /// <summary>Returns the result of a componentwise equality operation on a uint value and a uint3 vector.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3 operator == (uint lhs, uint3 rhs) { return new bool3 (lhs == rhs.x, lhs == rhs.y, lhs == rhs.z); }
+
+
+        /// <summary>Returns the result of a componentwise not equal operation on two uint3 vectors.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3 operator != (uint3 lhs, uint3 rhs) { return new bool3 (lhs.x != rhs.x, lhs.y != rhs.y, lhs.z != rhs.z); }
+
+        /// <summary>Returns the result of a componentwise not equal operation on a uint3 vector and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3 operator != (uint3 lhs, uint rhs) { return new bool3 (lhs.x != rhs, lhs.y != rhs, lhs.z != rhs); }
+
+        /// <summary>Returns the result of a componentwise not equal operation on a uint value and a uint3 vector.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3 operator != (uint lhs, uint3 rhs) { return new bool3 (lhs != rhs.x, lhs != rhs.y, lhs != rhs.z); }
+
+
+        /// <summary>Returns the result of a componentwise bitwise not operation on a uint3 vector.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator ~ (uint3 val) { return new uint3 (~val.x, ~val.y, ~val.z); }
+
+
+        /// <summary>Returns the result of a componentwise bitwise and operation on two uint3 vectors.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator & (uint3 lhs, uint3 rhs) { return new uint3 (lhs.x & rhs.x, lhs.y & rhs.y, lhs.z & rhs.z); }
+
+        /// <summary>Returns the result of a componentwise bitwise and operation on a uint3 vector and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator & (uint3 lhs, uint rhs) { return new uint3 (lhs.x & rhs, lhs.y & rhs, lhs.z & rhs); }
+
+        /// <summary>Returns the result of a componentwise bitwise and operation on a uint value and a uint3 vector.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator & (uint lhs, uint3 rhs) { return new uint3 (lhs & rhs.x, lhs & rhs.y, lhs & rhs.z); }
+
+
+        /// <summary>Returns the result of a componentwise bitwise or operation on two uint3 vectors.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator | (uint3 lhs, uint3 rhs) { return new uint3 (lhs.x | rhs.x, lhs.y | rhs.y, lhs.z | rhs.z); }
+
+        /// <summary>Returns the result of a componentwise bitwise or operation on a uint3 vector and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator | (uint3 lhs, uint rhs) { return new uint3 (lhs.x | rhs, lhs.y | rhs, lhs.z | rhs); }
+
+        /// <summary>Returns the result of a componentwise bitwise or operation on a uint value and a uint3 vector.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator | (uint lhs, uint3 rhs) { return new uint3 (lhs | rhs.x, lhs | rhs.y, lhs | rhs.z); }
+
+
+        /// <summary>Returns the result of a componentwise bitwise exclusive or operation on two uint3 vectors.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator ^ (uint3 lhs, uint3 rhs) { return new uint3 (lhs.x ^ rhs.x, lhs.y ^ rhs.y, lhs.z ^ rhs.z); }
+
+        /// <summary>Returns the result of a componentwise bitwise exclusive or operation on a uint3 vector and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator ^ (uint3 lhs, uint rhs) { return new uint3 (lhs.x ^ rhs, lhs.y ^ rhs, lhs.z ^ rhs); }
+
+        /// <summary>Returns the result of a componentwise bitwise exclusive or operation on a uint value and a uint3 vector.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3 operator ^ (uint lhs, uint3 rhs) { return new uint3 (lhs ^ rhs.x, lhs ^ rhs.y, lhs ^ rhs.z); }
+
+
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xxxx
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, x, x, x); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xxxy
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, x, x, y); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xxxz
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, x, x, z); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xxyx
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, x, y, x); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xxyy
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, x, y, y); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xxyz
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, x, y, z); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xxzx
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, x, z, x); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xxzy
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, x, z, y); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xxzz
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, x, z, z); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xyxx
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, y, x, x); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xyxy
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, y, x, y); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xyxz
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, y, x, z); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xyyx
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, y, y, x); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xyyy
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, y, y, y); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xyyz
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, y, y, z); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xyzx
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, y, z, x); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xyzy
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, y, z, y); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xyzz
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, y, z, z); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xzxx
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, z, x, x); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xzxy
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, z, x, y); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xzxz
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, z, x, z); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xzyx
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, z, y, x); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xzyy
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, z, y, y); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        public uint4 xzyz
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get { return new uint4(x, z, y, z); }
+        }
+
+
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableStsummary>Returns the result of a componentwise increment operation on a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator ++ (uint3x3 val) { return new uint3x3 (++val.c0, ++val.c1, ++val.c2); }
+
+
+        /// <summary>Returns the result of a componentwise decrement operation on a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator -- (uint3x3 val) { return new uint3x3 (--val.c0, --val.c1, --val.c2); }
+
+
+        /// <summary>Returns the result of a componentwise less than operation on two uint3x3 matrices.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator < (uint3x3 lhs, uint3x3 rhs) { return new bool3x3 (lhs.c0 < rhs.c0, lhs.c1 < rhs.c1, lhs.c2 < rhs.c2); }
+
+        /// <summary>Returns the result of a componentwise less than operation on a uint3x3 matrix and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator < (uint3x3 lhs, uint rhs) { return new bool3x3 (lhs.c0 < rhs, lhs.c1 < rhs, lhs.c2 < rhs); }
+
+        /// <summary>Returns the result of a componentwise less than operation on a uint value and a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator < (uint lhs, uint3x3 rhs) { return new bool3x3 (lhs < rhs.c0, lhs < rhs.c1, lhs < rhs.c2); }
+
+
+        /// <summary>Returns the result of a componentwise less or equal operation on two uint3x3 matrices.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator <= (uint3x3 lhs, uint3x3 rhs) { return new bool3x3 (lhs.c0 <= rhs.c0, lhs.c1 <= rhs.c1, lhs.c2 <= rhs.c2); }
+
+        /// <summary>Returns the result of a componentwise less or equal operation on a uint3x3 matrix and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator <= (uint3x3 lhs, uint rhs) { return new bool3x3 (lhs.c0 <= rhs, lhs.c1 <= rhs, lhs.c2 <= rhs); }
+
+        /// <summary>Returns the result of a componentwise less or equal operation on a uint value and a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator <= (uint lhs, uint3x3 rhs) { return new bool3x3 (lhs <= rhs.c0, lhs <= rhs.c1, lhs <= rhs.c2); }
+
+
+        /// <summary>Returns the result of a componentwise greater than operation on two uint3x3 matrices.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator > (uint3x3 lhs, uint3x3 rhs) { return new bool3x3 (lhs.c0 > rhs.c0, lhs.c1 > rhs.c1, lhs.c2 > rhs.c2); }
+
+        /// <summary>Returns the result of a componentwise greater than operation on a uint3x3 matrix and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator > (uint3x3 lhs, uint rhs) { return new bool3x3 (lhs.c0 > rhs, lhs.c1 > rhs, lhs.c2 > rhs); }
+
+        /// <summary>Returns the result of a componentwise greater than operation on a uint value and a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator > (uint lhs, uint3x3 rhs) { return new bool3x3 (lhs > rhs.c0, lhs > rhs.c1, lhs > rhs.c2); }
+
+
+        /// <summary>Returns the result of a componentwise greater or equal operation on two uint3x3 matrices.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator >= (uint3x3 lhs, uint3x3 rhs) { return new bool3x3 (lhs.c0 >= rhs.c0, lhs.c1 >= rhs.c1, lhs.c2 >= rhs.c2); }
+
+        /// <summary>Returns the result of a componentwise greater or equal operation on a uint3x3 matrix and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator >= (uint3x3 lhs, uint rhs) { return new bool3x3 (lhs.c0 >= rhs, lhs.c1 >= rhs, lhs.c2 >= rhs); }
+
+        /// <summary>Returns the result of a componentwise greater or equal operation on a uint value and a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator >= (uint lhs, uint3x3 rhs) { return new bool3x3 (lhs >= rhs.c0, lhs >= rhs.c1, lhs >= rhs.c2); }
+
+
+        /// <summary>Returns the result of a componentwise unary minus operation on a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator - (uint3x3 val) { return new uint3x3 (-val.c0, -val.c1, -val.c2); }
+
+
+        /// <summary>Returns the result of a componentwise unary plus operation on a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator + (uint3x3 val) { return new uint3x3 (+val.c0, +val.c1, +val.c2); }
+
+
+        /// <summary>Returns the result of a componentwise left shift operation on a uint3x3 matrix by a number of bits specified by a single int.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator << (uint3x3 x, int n) { return new uint3x3 (x.c0 << n, x.c1 << n, x.c2 << n); }
+
+        /// <summary>Returns the result of a componentwise right shift operation on a uint3x3 matrix by a number of bits specified by a single int.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator >> (uint3x3 x, int n) { return new uint3x3 (x.c0 >> n, x.c1 >> n, x.c2 >> n); }
+
+        /// <summary>Returns the result of a componentwise equality operation on two uint3x3 matrices.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator == (uint3x3 lhs, uint3x3 rhs) { return new bool3x3 (lhs.c0 == rhs.c0, lhs.c1 == rhs.c1, lhs.c2 == rhs.c2); }
+
+        /// <summary>Returns the result of a componentwise equality operation on a uint3x3 matrix and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator == (uint3x3 lhs, uint rhs) { return new bool3x3 (lhs.c0 == rhs, lhs.c1 == rhs, lhs.c2 == rhs); }
+
+        /// <summary>Returns the result of a componentwise equality operation on a uint value and a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator == (uint lhs, uint3x3 rhs) { return new bool3x3 (lhs == rhs.c0, lhs == rhs.c1, lhs == rhs.c2); }
+
+
+        /// <summary>Returns the result of a componentwise not equal operation on two uint3x3 matrices.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator != (uint3x3 lhs, uint3x3 rhs) { return new bool3x3 (lhs.c0 != rhs.c0, lhs.c1 != rhs.c1, lhs.c2 != rhs.c2); }
+
+        /// <summary>Returns the result of a componentwise not equal operation on a uint3x3 matrix and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator != (uint3x3 lhs, uint rhs) { return new bool3x3 (lhs.c0 != rhs, lhs.c1 != rhs, lhs.c2 != rhs); }
+
+        /// <summary>Returns the result of a componentwise not equal operation on a uint value and a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool3x3 operator != (uint lhs, uint3x3 rhs) { return new bool3x3 (lhs != rhs.c0, lhs != rhs.c1, lhs != rhs.c2); }
+
+
+        /// <summary>Returns the result of a componentwise bitwise not operation on a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator ~ (uint3x3 val) { return new uint3x3 (~val.c0, ~val.c1, ~val.c2); }
+
+
+        /// <summary>Returns the result of a componentwise bitwise and operation on two uint3x3 matrices.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator & (uint3x3 lhs, uint3x3 rhs) { return new uint3x3 (lhs.c0 & rhs.c0, lhs.c1 & rhs.c1, lhs.c2 & rhs.c2); }
+
+        /// <summary>Returns the result of a componentwise bitwise and operation on a uint3x3 matrix and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator & (uint3x3 lhs, uint rhs) { return new uint3x3 (lhs.c0 & rhs, lhs.c1 & rhs, lhs.c2 & rhs); }
+
+        /// <summary>Returns the result of a componentwise bitwise and operation on a uint value and a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator & (uint lhs, uint3x3 rhs) { return new uint3x3 (lhs & rhs.c0, lhs & rhs.c1, lhs & rhs.c2); }
+
+
+        /// <summary>Returns the result of a componentwise bitwise or operation on two uint3x3 matrices.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator | (uint3x3 lhs, uint3x3 rhs) { return new uint3x3 (lhs.c0 | rhs.c0, lhs.c1 | rhs.c1, lhs.c2 | rhs.c2); }
+
+        /// <summary>Returns the result of a componentwise bitwise or operation on a uint3x3 matrix and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator | (uint3x3 lhs, uint rhs) { return new uint3x3 (lhs.c0 | rhs, lhs.c1 | rhs, lhs.c2 | rhs); }
+
+        /// <summary>Returns the result of a componentwise bitwise or operation on a uint value and a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator | (uint lhs, uint3x3 rhs) { return new uint3x3 (lhs | rhs.c0, lhs | rhs.c1, lhs | rhs.c2); }
+
+
+        /// <summary>Returns the result of a componentwise bitwise exclusive or operation on two uint3x3 matrices.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator ^ (uint3x3 lhs, uint3x3 rhs) { return new uint3x3 (lhs.c0 ^ rhs.c0, lhs.c1 ^ rhs.c1, lhs.c2 ^ rhs.c2); }
+
+        /// <summary>Returns the result of a componentwise bitwise exclusive or operation on a uint3x3 matrix and a uint value.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator ^ (uint3x3 lhs, uint rhs) { return new uint3x3 (lhs.c0 ^ rhs, lhs.c1 ^ rhs, lhs.c2 ^ rhs); }
+
+        /// <summary>Returns the result of a componentwise bitwise exclusive or operation on a uint value and a uint3x3 matrix.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static uint3x3 operator ^ (uint lhs, uint3x3 rhs) { return new uint3x3 (lhs ^ rhs.c0, lhs ^ rhs.c1, lhs ^ rhs.c2); }
+
+
+
+        /// <summary>Returns the uint3 element at a specified index.</summary>
+        unsafe public ref uint3 this[int index]
+        {
+            get
+            {
+#if ENABLE_UNITY_COLLECTIONS_CHECKS
+                if ((uint)index >= 3)
+                    throw new System.ArgumentException("index must be between[0...2]");
+#endif
+                fixed (uint3x3* array = &this) { return ref ((uint3*)array)[index]; }
+            }
+        }
+
+        /// <summary>Returns true if the uint3x3 is equal to a given uint3x3, false otherwise.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public bool Equals(uint3x3 rhs) { return c0.Equals(rhs.c0) && c1.Equals(rhs.c1) && c2.Equals(rhs.c2); }
+
+        /// <summary>Returns true if the uint3x3 is equal to a given uint3x3, false otherwise.</summary>
+        public override bool Equals(object o) { return Equals((uint3x3)o); }
+
+
+        /// <summary>Returns a hash code for the uint3x3.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public override int GetHashCode() { return (int)math.hash(this); }
+
+
+        /// <summary>Returns a string representation of the uint3x3.</summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public override string ToString()
+        {
+            return string.Format("uint3x3({0}, {1}, {2},  {3}, {4}, {5},  {6}, {7}, {8})", c0.x, c1.x, c2.x, c0.y, c1.y, c2.y, c0.z, c1.z, c2.z);
+        }
+
+        /// <summary>Re      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073687629903434900, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_Name
+      value: su-2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3c7550c060bc8044a6e57e647b6cdfc, type: 3}
+--- !u!4 &5013696443482563094 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6419481707234822061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6419481707435842222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6419481707712069433}
+    m_Modifications:
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073687629903434900, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_Name
+      value: su-e
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3c7550c060bc8044a6e57e647b6cdfc, type: 3}
+--- !u!4 &5013696443549466389 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6419481707435842222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6419481707682171668
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6419481707712069433}
+    m_Modifications:
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073687629903434900, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_Name
+      value: su-1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3c7550c060bc8044a6e57e647b6cdfc, type: 3}
+--- !u!4 &5013696444334403247 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6419481707682171668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7194426142528107156
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6419481707712069433}
+    m_Modifications:
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073687629903434900, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_Name
+      value: su-2 (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3c7550c060bc8044a6e57e647b6cdfc, type: 3}
+--- !u!4 &9175260391559173935 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7194426142528107156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8909733248191521070
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6419481707712069433}
+    m_Modifications:
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073687629903434900, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+        type: 3}
+      propertyPath: m_Name
+      value: su-2 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3c7550c060bc8044a6e57e647b6cdfc, type: 3}
+--- !u!4 &7432933818207700117 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2054396536144750011, guid: b3c7550c060bc8044a6e57e647b6cdfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 8909733248191521070}
+  m_PrefabAsset: {fileID: 0}
