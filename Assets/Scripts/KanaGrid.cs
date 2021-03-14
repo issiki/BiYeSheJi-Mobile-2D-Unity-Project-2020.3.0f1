@@ -8,9 +8,9 @@ public class KanaGrid : MonoBehaviour
     /// <summary>
     /// 主摄像机
     /// </summary>
-    public Camera _camera;
-    public AudioSource _audioSource;
-    public CinemachineBrain _brain;
+    public Camera cam;
+    public AudioSource audioSource;
+    public CinemachineBrain brain;
 
     public enum EKanaType
     {
@@ -114,9 +114,9 @@ public class KanaGrid : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _camera = Camera.main;
-        _audioSource = _camera.GetComponent<AudioSource>();
-        _brain = _camera.GetComponent<CinemachineBrain>();
+        ///_camera = Camera.main;
+        ///_audioSource = _camera.GetComponent<AudioSource>();
+        ///_brain = _camera.GetComponent<CinemachineBrain>();
         NGyouHeader.name = "撥音";
     }
 
@@ -302,7 +302,6 @@ public class KanaGrid : MonoBehaviour
         {
             case "":
             default:
-                break;
             ///平假名
             case "hira":///简写
             case "hiragana":///完整
@@ -322,7 +321,6 @@ public class KanaGrid : MonoBehaviour
         switch (kanaType)
         {
             default:
-                break;
             case EKanaType.Hiragana:
                 kanaType = EKanaType.Katakana;
                 break;

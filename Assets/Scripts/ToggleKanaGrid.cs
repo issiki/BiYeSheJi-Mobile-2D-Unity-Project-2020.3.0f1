@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[ExecuteInEditMode]
 public class ToggleKanaGrid : MonoBehaviour
 {
     public GameObject[] GameObject;
@@ -19,7 +20,9 @@ public class ToggleKanaGrid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+#if UNITY_EDITOR
         Text.text = visibility ? TextWhenActive : TextWhenInactive;
+#endif
     }
 
     public void Toggle()
@@ -29,5 +32,6 @@ public class ToggleKanaGrid : MonoBehaviour
         {
             obj.SetActive(visibility);
         }
+        Text.text = visibility ? TextWhenActive : TextWhenInactive;
     }
 }

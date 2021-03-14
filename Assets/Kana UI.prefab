@@ -184,6 +184,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6636252774317477155}
   - component: {fileID: 5223294142182065124}
+  - component: {fileID: 5505584509135974623}
+  - component: {fileID: 3508766562092491220}
   m_Layer: 5
   m_Name: Kana UI
   m_TagString: Untagged
@@ -227,287 +229,95 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kanaGrid: {fileID: 0}
-  kana: a
+  romaji: a
   romajiText: {fileID: 6636252773363600185}
   kanaImage: {fileID: 6636252773255821843}
   strokeImage: {fileID: 6636252774633170781}
   devImage: {fileID: 118104073345745255}
-  a: {fileID: 21300000, guid: 946b8280d2780b241b6522860a6e3203, type: 3}
-  i: {fileID: 21300000, guid: fa0883fb27d208a4782b52a225fef272, type: 3}
-  u: {fileID: 21300000, guid: 34dd46c38bffc8f46b2a63a3e75d26b6, type: 3}
-  e: {fileID: 21300000, guid: e36f8e5dbcc24104a9300e8e541558b8, type: 3}
-  o: {fileID: 21300000, guid: a9cfe31dcd43019469485d5e3b0b42b6, type: 3}
-  aStroke: {fileID: 21300000, guid: eab5fd73b10f5864da217e5c65e80c29, type: 3}
-  iStroke: {fileID: 21300000, guid: 723fe32885b22a143b9e1caeccd3150f, type: 3}
-  uStroke: {fileID: 21300000, guid: 8b42c1a4630511245a24b535fb8b2e84, type: 3}
-  eStroke: {fileID: 21300000, guid: 980cf2efc9b2e2d4f81b00728dc6ba51, type: 3}
-  oStroke: {fileID: 21300000, guid: ef8fc36046e0ba746b672e95af09971a, type: 3}
-  aDev: {fileID: 8814601909223887847, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  iDev: {fileID: 2751780515004065408, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  uDev: {fileID: 2447489326728088936, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  eDev: {fileID: -3952921970667902522, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  oDev: {fileID: -9124085173403004350, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  ka: {fileID: 21300000, guid: 5e15bfbeb02022044abf65ba5ecce781, type: 3}
-  ki: {fileID: 21300000, guid: 4d871f74547ebeb4394f26c4e50d9e9c, type: 3}
-  ku: {fileID: 21300000, guid: c69a558322182db4c957c17bf094ca84, type: 3}
-  ke: {fileID: 21300000, guid: 901214e8a1e31ef418256492d37be2d7, type: 3}
-  ko: {fileID: 21300000, guid: cf7417c053e01a543bbd48fae076d68c, type: 3}
-  kaStroke: {fileID: 21300000, guid: 31e452d9ee2ff4d46a37807c5ff65570, type: 3}
-  kiStroke: {fileID: 21300000, guid: eb5db7e8f8dda8e41b1a600772e7fc7c, type: 3}
-  kuStroke: {fileID: 21300000, guid: 11eb2e4546ab7d74d8d2edafe548f5b4, type: 3}
-  keStroke: {fileID: 21300000, guid: 80d3a01103e832041a8dd308e42cddbe, type: 3}
-  koStroke: {fileID: 21300000, guid: a1067d42b7c64e44b985ad9d84cabb3b, type: 3}
-  kaDev: {fileID: 6766143566830831932, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  kiDev: {fileID: 2963930851066456560, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  kuDev: {fileID: -137818673699606209, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  keDev: {fileID: -1122716937228091858, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  koDev: {fileID: -7933313073333026136, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  sa: {fileID: 21300000, guid: 92096567a5238af4090d23c4b1c8960e, type: 3}
-  shi: {fileID: 21300000, guid: a9136339ef8c6eb43b2e84a6ccee634d, type: 3}
-  su: {fileID: 21300000, guid: f07fa52a0e5ce684da605af9256d08b9, type: 3}
-  se: {fileID: 21300000, guid: 294aea85fb313e44cb23f2378aeca719, type: 3}
-  so: {fileID: 21300000, guid: aeabf5cad50ccbf4a9379cf750b742aa, type: 3}
-  saStroke: {fileID: 21300000, guid: cdf8fd7215d32e742948197ff04a9493, type: 3}
-  shiStroke: {fileID: 21300000, guid: ba0ce6b8087ece447934ca738155f4cd, type: 3}
-  suStroke: {fileID: 21300000, guid: f40eb69eaeb84d145b4248c06b4a895b, type: 3}
-  seStroke: {fileID: 21300000, guid: d780e21104ebcff43b3a6231c9d4f5b7, type: 3}
-  soStroke: {fileID: 21300000, guid: be6d967e3c882b7409e199145fb91640, type: 3}
-  saDev: {fileID: -4782714918630502650, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  shiDev: {fileID: -9143322332557352171, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  suDev: {fileID: -2411791844807454733, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  seDev: {fileID: 227169539243968131, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  soDev: {fileID: 7326409893918396954, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  ta: {fileID: 21300000, guid: 6c4e7bec8b8b9c84596b90c1bfca810f, type: 3}
-  chi: {fileID: 21300000, guid: ed1dbcebc716c804ba200137b280e5d8, type: 3}
-  tsu: {fileID: 21300000, guid: 1511a4e1d5bc7d74eaec507690f67c39, type: 3}
-  te: {fileID: 21300000, guid: 68bdb9e9c922f174fb4f797e210cc36f, type: 3}
-  to: {fileID: 21300000, guid: a994fcf33ca8d2a4882a93dbd9e77b5c, type: 3}
-  taStroke: {fileID: 21300000, guid: 2d02b7607ea0f6d458608a38db64e7ba, type: 3}
-  chiStroke: {fileID: 21300000, guid: 06279be12ae8d96439020ef6f499686e, type: 3}
-  tsuStroke: {fileID: 21300000, guid: 203459b494e942540be3c6a506fa2f8f, type: 3}
-  teStroke: {fileID: 21300000, guid: fec5970670da98042bb94819bdae3615, type: 3}
-  toStroke: {fileID: 21300000, guid: 64add3191fa8ada40a1ec095735a8ad6, type: 3}
-  taDev: {fileID: 2582833217892989609, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  chiDev: {fileID: 2757127960341843358, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  tsuDev: {fileID: -7385703740941977481, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  teDev: {fileID: 7101524281911880037, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  toDev: {fileID: -4831930786627696907, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  na: {fileID: 21300000, guid: 45bf5dba0f6d8844c9927d5f6811d6c8, type: 3}
-  ni: {fileID: 21300000, guid: 0f83aac0d2bef73498c1bb5143a79039, type: 3}
-  nu: {fileID: 21300000, guid: 786c26b4d707ded4aa36c32f51fe1762, type: 3}
-  ne: {fileID: 21300000, guid: 03f57fdd55f02ae43a73d25ee2037d08, type: 3}
-  no: {fileID: 21300000, guid: 6639974f6f6260042a78c1b4ce93b363, type: 3}
-  naStroke: {fileID: 21300000, guid: 8acc2d52cd4326d4ca264641abf7261e, type: 3}
-  niStroke: {fileID: 21300000, guid: 24c34bd20f557b8499dcd9eaec3d6658, type: 3}
-  nuStroke: {fileID: 21300000, guid: e635e5e0f023ac7489d024813a959909, type: 3}
-  neStroke: {fileID: 21300000, guid: dd1e82b424e853841b4a131aeac465ef, type: 3}
-  noStroke: {fileID: 21300000, guid: ca0361ed633c6e246ae149f9bb0263bc, type: 3}
-  naDev: {fileID: -5502893724008939859, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  niDev: {fileID: -4681927694043595042, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  nuDev: {fileID: 4890583832502089214, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  neDev: {fileID: -1995648075743687922, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  noDev: {fileID: 4035965087204003825, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  ha: {fileID: 21300000, guid: d59a4799303832441bf5af58999994da, type: 3}
-  hi: {fileID: 21300000, guid: be9087755ff62844981d42e0681ebba7, type: 3}
-  fu: {fileID: 21300000, guid: 4e684a1d533ba3c4d852befa07fc4354, type: 3}
-  he: {fileID: 21300000, guid: 3aebe56c3bf613041838bcee9025cc42, type: 3}
-  ho: {fileID: 21300000, guid: 836e05a46c2c77c4f9bae6b0eb296ea1, type: 3}
-  haStroke: {fileID: 21300000, guid: 83e07001b154f554d94803306452dbcf, type: 3}
-  hiStroke: {fileID: 21300000, guid: 15342a32826fb1045bd731b30102e60f, type: 3}
-  fuStroke: {fileID: 21300000, guid: 7e8f449067a2cd648a34e5aa64926752, type: 3}
-  heStroke: {fileID: 21300000, guid: 1fd763968dd5b6742a517bf7a196b242, type: 3}
-  hoStroke: {fileID: 21300000, guid: 6b3e006deb21e554f9b45772b4109422, type: 3}
-  haDev: {fileID: 172213463427583544, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  hiDev: {fileID: -6707012548998780357, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  fuDev: {fileID: -4918702152570815854, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  heDev: {fileID: 6727183350981070356, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  hoDev: {fileID: -2561436933781271033, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  ma: {fileID: 21300000, guid: 09680a09bccac6b47b63469bfbe02efc, type: 3}
-  mi: {fileID: 21300000, guid: 597c1b6b4668cea4a9c9fd3d431b1b2d, type: 3}
-  mu: {fileID: 21300000, guid: daea06f96569d6646872f345d5169efb, type: 3}
-  me: {fileID: 21300000, guid: ffac2b1ce23ec954c876982199303037, type: 3}
-  mo: {fileID: 21300000, guid: 6a38bc78e4f3d0948bb7ad15c4e6e1b6, type: 3}
-  maStroke: {fileID: 21300000, guid: 478e5d824f8548740807410ce89ab9b5, type: 3}
-  miStroke: {fileID: 21300000, guid: 539b7c69bf9164d4c925475dd99a2c07, type: 3}
-  muStroke: {fileID: 21300000, guid: 50f46ffb2dfe8c24fb81ab396b1be835, type: 3}
-  meStroke: {fileID: 21300000, guid: 7e0d6a7ef13d7524db8f194a0f027031, type: 3}
-  moStroke: {fileID: 21300000, guid: fd2dd3fd16b270d428269a449a588995, type: 3}
-  maDev: {fileID: 5825088467337214837, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  miDev: {fileID: -2670431090740872117, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  muDev: {fileID: 8435831012106792312, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  meDev: {fileID: -9049648422831026242, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  moDev: {fileID: -3494628270092077608, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  ya: {fileID: 21300000, guid: dbd65bb56ed92ee45ac9d3717ef45b54, type: 3}
-  yu: {fileID: 21300000, guid: 320349ff0c06a5f44a2152f1bb4a4eec, type: 3}
-  yo: {fileID: 21300000, guid: eed001ba2e212c742a7a302bc1f8863d, type: 3}
-  yaStroke: {fileID: 21300000, guid: 4eb7f6eaadbd31d4fafef16910646a27, type: 3}
-  yuStroke: {fileID: 21300000, guid: 433eb295c22b30945afdf980f0592391, type: 3}
-  yoStroke: {fileID: 21300000, guid: bba67492973e6c341a55b646204603dc, type: 3}
-  yaDev: {fileID: -5990085496670604349, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  yuDev: {fileID: 1783768856293570226, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  yoDev: {fileID: 4090431249211476363, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  ra: {fileID: 21300000, guid: dd324894a42254c488cec1e2aeddf6c1, type: 3}
-  ri: {fileID: 21300000, guid: cda563bde01220a4eacde617e182b024, type: 3}
-  ru: {fileID: 21300000, guid: ec677135046720f4b9e70e484c1481a6, type: 3}
-  re: {fileID: 21300000, guid: 377b90c8dbbc9764fbcf60bc037a135c, type: 3}
-  ro: {fileID: 21300000, guid: 1dceb87573e63a84faeb2c30a5abf5a4, type: 3}
-  raStroke: {fileID: 21300000, guid: 9f754c5bb7306b940a9722e86d9b67ae, type: 3}
-  riStroke: {fileID: 21300000, guid: 6bee76c4f97c4654b9f4dc10e6059ffd, type: 3}
-  ruStroke: {fileID: 21300000, guid: 1c7b8b0a03a7683459f75b0572a1c401, type: 3}
-  reStroke: {fileID: 21300000, guid: 6f90f1d24ee469a4887363e1aa81296e, type: 3}
-  roStroke: {fileID: 21300000, guid: 1dceb87573e63a84faeb2c30a5abf5a4, type: 3}
-  raDev: {fileID: -8978624950315765139, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  riDev: {fileID: -5355903632911381685, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  ruDev: {fileID: -8220698575904909760, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  reDev: {fileID: -889932050283422371, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  roDev: {fileID: -6219671958701772414, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  wa: {fileID: 21300000, guid: f2f2a835b1849664cadfc6a03cbe4996, type: 3}
-  wo: {fileID: 21300000, guid: 14239849b604bf5468147017011ca612, type: 3}
-  waStroke: {fileID: 21300000, guid: d3acf2413c8802a43a7b9154c70bef07, type: 3}
-  woStroke: {fileID: 21300000, guid: b170bc2118af9614aa25f946cc611306, type: 3}
-  waDev: {fileID: 442494855940225977, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  woDev: {fileID: 2485161163223775508, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  n: {fileID: 21300000, guid: 7f7d640473c680645821d221a26008f2, type: 3}
-  nStroke: {fileID: 21300000, guid: 37454ea5b3100194a8be7e0dac3bfae2, type: 3}
-  nDev: {fileID: 2021534009363533035, guid: b6a92dac64c8a0941ae3fe667907dace, type: 3}
-  aKata: {fileID: 21300000, guid: 232bfaf44ea43b24c8a637a9f2d9c743, type: 3}
-  iKata: {fileID: 21300000, guid: 24c431ef31b68a147bb256e0cafd0c93, type: 3}
-  uKata: {fileID: 21300000, guid: d0d1f0353d926344eb1558961d650751, type: 3}
-  eKata: {fileID: 21300000, guid: f0d64465b24bc044cb89fa4782e13d33, type: 3}
-  oKata: {fileID: 21300000, guid: 5841ddcc0c13d414baf4715e4382a7ee, type: 3}
-  aKataStroke: {fileID: 21300000, guid: eeab510b6f6ae3c4d90cfe30df884ab0, type: 3}
-  iKataStroke: {fileID: 21300000, guid: 6ac71736322da584898fa636d9c1cf22, type: 3}
-  uKataStroke: {fileID: 21300000, guid: 462bd4c5e7404e140bb027c3cf755804, type: 3}
-  eKataStroke: {fileID: 21300000, guid: 24242cd73b6937044b2553e45a5b66c1, type: 3}
-  oKataStroke: {fileID: 21300000, guid: b6ee88b152065de4fb9de9bf175a221f, type: 3}
-  aKataDev: {fileID: -6526827588602773584, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  iKataDev: {fileID: -3116012012373847453, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  uKataDev: {fileID: -8409141905398433462, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  eKataDev: {fileID: -2151516155739574195, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  oKataDev: {fileID: -6597070665535481474, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  kaKata: {fileID: 21300000, guid: b147d68403f46c343872836e6c780c49, type: 3}
-  kiKata: {fileID: 21300000, guid: d5a94501c0ede0b4d9d83644e0eab046, type: 3}
-  kuKata: {fileID: 21300000, guid: 7cab97f0d0197f340bef2e335967fc85, type: 3}
-  keKata: {fileID: 21300000, guid: 926bb5a9e8ce6c14c9fa8b89d71097b1, type: 3}
-  koKata: {fileID: 21300000, guid: e01fa7225f436fe47bafbce78ae64e55, type: 3}
-  kaKataStroke: {fileID: 21300000, guid: f0eebf723552c644694262f8c70350a9, type: 3}
-  kiKataStroke: {fileID: 21300000, guid: d98fbeffc1fcc1846b6b0e52c025c14a, type: 3}
-  kuKataStroke: {fileID: 21300000, guid: 58f57d0fcaa92ed48bc9e682545a9a52, type: 3}
-  keKataStroke: {fileID: 21300000, guid: 2d5c9b2c7c3f60f428b59c013b5788f9, type: 3}
-  koKataStroke: {fileID: 21300000, guid: 7816e9c65c4f37b4e9f75777e5fb0bed, type: 3}
-  kaKataDev: {fileID: -7092827686485285694, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  kiKataDev: {fileID: -4306431422695117766, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  kuKataDev: {fileID: 4445802589819905059, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  keKataDev: {fileID: -4420070018548088793, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  koKataDev: {fileID: 5311889891884646516, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  saKata: {fileID: 21300000, guid: cb5e1d00b8b1072439d7c1ed2c00f791, type: 3}
-  shiKata: {fileID: 21300000, guid: 2c3e230a15a40284f91b5d83ac5bd171, type: 3}
-  suKata: {fileID: 21300000, guid: 296e5d0923eb5a24ea0b79ad354700fd, type: 3}
-  seKata: {fileID: 21300000, guid: ebcc92d640ea6cb418fd0801b17251c6, type: 3}
-  soKata: {fileID: 21300000, guid: 5ba9b62cb85370c4a9387966e2415b71, type: 3}
-  saKataStroke: {fileID: 21300000, guid: 35297e5c72fbe4045a270f2dd26b3f40, type: 3}
-  shiKataStroke: {fileID: 21300000, guid: 0d86d982220157d4c808ea99901664f2, type: 3}
-  suKataStroke: {fileID: 21300000, guid: 37b326a2cf2112241a2737ea8c9a749a, type: 3}
-  seKataStroke: {fileID: 21300000, guid: ada2fb82b6eb41d49b732030c8e7c342, type: 3}
-  soKataStroke: {fileID: 21300000, guid: cd3d273351c651d44962ff45dad68c48, type: 3}
-  saKataDev: {fileID: -7122651744669336343, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  shiKataDev: {fileID: -2047311323770510250, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  suKataDev: {fileID: -9198044181031529285, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  seKataDev: {fileID: -7601504758966291282, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  soKataDev: {fileID: -545066684062857985, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  taKata: {fileID: 21300000, guid: 2df47c5271dbdd04fbbbc639583ece33, type: 3}
-  chiKata: {fileID: 21300000, guid: a3211938c4da83d4d8de80f8ed72d77b, type: 3}
-  tsuKata: {fileID: 21300000, guid: 13699cfff4e44a44280713edf9e01eb6, type: 3}
-  teKata: {fileID: 21300000, guid: e85c0177dbe264540b1cd7e983c7cf8e, type: 3}
-  toKata: {fileID: 21300000, guid: 4008c0246d7f7394ca9ca8d87838f66a, type: 3}
-  taKataStroke: {fileID: 21300000, guid: 4c63bae0d82946e4fb6367762f0141cf, type: 3}
-  chiKataStroke: {fileID: 21300000, guid: acb42b135ea3d334ca0bf77e38dee390, type: 3}
-  tsuKataStroke: {fileID: 21300000, guid: 6fd16b7bcb2c39a45ae9c0049213c0bd, type: 3}
-  teKataStroke: {fileID: 21300000, guid: d647dbe970d7a7445b62e063cec720fc, type: 3}
-  toKataStroke: {fileID: 21300000, guid: e93a3256fe5ff394dbe5cbf7583b7093, type: 3}
-  taKataDev: {fileID: -3730223851021626283, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  chiKataDev: {fileID: -4219422172711425775, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  tsuKataDev: {fileID: 8792708199352221393, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  teKataDev: {fileID: -5686320813990746632, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  toKataDev: {fileID: -6370453655687131184, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  naKata: {fileID: 21300000, guid: 1199d9744844d4f468f8f1f8903412de, type: 3}
-  niKata: {fileID: 21300000, guid: 3feabf887e3f33a42a0029fbf4b3c300, type: 3}
-  nuKata: {fileID: 21300000, guid: d2c55b7c7ad553945a7a7f6137a0c3ae, type: 3}
-  neKata: {fileID: 21300000, guid: b26793a5aabbf0142a80cd37c04bfdef, type: 3}
-  noKata: {fileID: 21300000, guid: e08988fbd80ee5e4aa3c18067579c448, type: 3}
-  naKataStroke: {fileID: 21300000, guid: 4c6d78bb9ed368442a902924cb9e07dc, type: 3}
-  niKataStroke: {fileID: 21300000, guid: 22625de50544442469f6de745008c4a8, type: 3}
-  nuKataStroke: {fileID: 21300000, guid: 49dd2e1a1ba14bd4fab8393afa9c31d4, type: 3}
-  neKataStroke: {fileID: 21300000, guid: 40ac5dd6a338d2a48b380ced4a73f720, type: 3}
-  noKataStroke: {fileID: 21300000, guid: 8eb05fd8dd7850848bf77aaeb132b9c3, type: 3}
-  naKataDev: {fileID: -3014665030238532237, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  niKataDev: {fileID: -427770934254609146, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  nuKataDev: {fileID: -9048266685185479051, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  neKataDev: {fileID: -7421465048323428958, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  noKataDev: {fileID: 5975961873186464070, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  haKata: {fileID: 21300000, guid: 1f1907596475e2b4b8a29e9c87554e1f, type: 3}
-  hiKata: {fileID: 21300000, guid: 296f6d8ae1ba23d4b918b01c3708e380, type: 3}
-  fuKata: {fileID: 21300000, guid: 4c288d7719b6ca84bb69d929b47543d0, type: 3}
-  heKata: {fileID: 21300000, guid: 15fac0a176d5a334c8504b01745eddec, type: 3}
-  hoKata: {fileID: 21300000, guid: d85ed77d096479f4792083504bf414be, type: 3}
-  haKataStroke: {fileID: 21300000, guid: 6025bf66dca3fef40b74e5140a842f36, type: 3}
-  hiKataStroke: {fileID: 21300000, guid: e037c9ce41d6ca041ba995d2a0ce3e96, type: 3}
-  fuKataStroke: {fileID: 21300000, guid: cc64fc95e90a05a4b928d61fa9b3b904, type: 3}
-  heKataStroke: {fileID: 21300000, guid: 44c308db0f23a7c40b2538ea7013433a, type: 3}
-  hoKataStroke: {fileID: 21300000, guid: f3513b9304a03994c935afd594b5de31, type: 3}
-  haKataDev: {fileID: -7037577058754014318, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  hiKataDev: {fileID: 954359972568891818, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  fuKataDev: {fileID: -4281112657399829076, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  heKataDev: {fileID: -3305810300631727677, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  hoKataDev: {fileID: -506068293669241829, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  maKata: {fileID: 21300000, guid: ea72037389fa44a4fb34580aeb1c9f32, type: 3}
-  miKata: {fileID: 21300000, guid: 1155abcd31883454bb93f5cc25585059, type: 3}
-  muKata: {fileID: 21300000, guid: e5c05134fb0caeb4f901618558125795, type: 3}
-  meKata: {fileID: 21300000, guid: e835647490d3d944eb460c76beffee57, type: 3}
-  moKata: {fileID: 21300000, guid: 6e725e2fbebf8294e8f4b92442b9e78b, type: 3}
-  maKataStroke: {fileID: 21300000, guid: 452c6bf035775f24a8ca23d43bf2dd33, type: 3}
-  miKataStroke: {fileID: 21300000, guid: 6fe3b95d702eca943ae163bd42076fae, type: 3}
-  muKataStroke: {fileID: 21300000, guid: 1d973b74e155efb44ac45d54db6b7cc0, type: 3}
-  meKataStroke: {fileID: 21300000, guid: fd6215b190918bf43a448dbb7c72080a, type: 3}
-  moKataStroke: {fileID: 21300000, guid: 03d1729ca11e37a488280ba500f93034, type: 3}
-  maKataDev: {fileID: -4053329452803814469, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  miKataDev: {fileID: 1983617271009437854, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  muKataDev: {fileID: 1493064820225841741, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  meKataDev: {fileID: -4439179038903415320, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  moKataDev: {fileID: -3734372434637911348, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  yaKata: {fileID: 21300000, guid: 37cd3fa1fe28eb6499e7c656488a39bf, type: 3}
-  yuKata: {fileID: 21300000, guid: 70098d6fc25c1b24b9f8a6cdfc836c68, type: 3}
-  yoKata: {fileID: 21300000, guid: 0c6bdf7992094534481a801d8c0af643, type: 3}
-  yaKataStroke: {fileID: 21300000, guid: b2bbe62bf0013f64fb97bf893af7d720, type: 3}
-  yuKataStroke: {fileID: 21300000, guid: 7690a016478eba743b8ef9c13284a67f, type: 3}
-  yoKataStroke: {fileID: 21300000, guid: c30529b51cb2c5648bd125abfb958f70, type: 3}
-  yaKataDev: {fileID: 941384858497091857, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  yuKataDev: {fileID: 7711689178893144688, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  yoKataDev: {fileID: -7557195918493084473, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  raKata: {fileID: 21300000, guid: 3d81650103b4d2f438681df22ca5bda7, type: 3}
-  riKata: {fileID: 21300000, guid: 0fdb4ab299677bf4b8ba67cc259906a6, type: 3}
-  ruKata: {fileID: 21300000, guid: 3ac48420493d8a2419fa80c638fab393, type: 3}
-  reKata: {fileID: 21300000, guid: 0e8d850bb43e2464083c6e8f89ea363f, type: 3}
-  roKata: {fileID: 21300000, guid: dac31f234946e0b4baaa18d12cd7ed74, type: 3}
-  raKataStroke: {fileID: 21300000, guid: 9f754c5bb7306b940a9722e86d9b67ae, type: 3}
-  riKataStroke: {fileID: 21300000, guid: 192b858f1863c5e4c840dc4e6ae3958e, type: 3}
-  ruKataStroke: {fileID: 21300000, guid: 192b858f1863c5e4c840dc4e6ae3958e, type: 3}
-  reKataStroke: {fileID: 21300000, guid: aaf714a289671b64f8d24bb3e4de4d50, type: 3}
-  roKataStroke: {fileID: 21300000, guid: 9920bb5e3bd0fa4469debd9f19add006, type: 3}
-  raKataDev: {fileID: 3239149631560341668, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  riKataDev: {fileID: -7588901526950161419, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  ruKataDev: {fileID: 295181769374197337, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  reKataDev: {fileID: 8665773185984113232, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  roKataDev: {fileID: -3225799870726913354, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  waKata: {fileID: 21300000, guid: 1448272d3eb62fc47a841c578a2aef86, type: 3}
-  woKata: {fileID: 21300000, guid: f10cc3bc47f05ba429755da76d980b44, type: 3}
-  waKataStroke: {fileID: 21300000, guid: e7ab1b30269d2b54dac1fdb8b339d61c, type: 3}
-  woKataStroke: {fileID: 21300000, guid: 5534554a4e924aa4aa5669abcb5496eb, type: 3}
-  waKataDev: {fileID: -8061568289994413119, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  woKataDev: {fileID: -2816091246131376130, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
-  nKata: {fileID: 21300000, guid: d8d6ac3e6e9185c4c9eb71fc1d910877, type: 3}
-  nKataStroke: {fileID: 21300000, guid: 312c5f245042b744da346270ee465117, type: 3}
-  nKataDev: {fileID: -2161345210362890220, guid: 71f2a1d4fe158be408384dac52259781, type: 3}
+  a: {fileID: 0}
+  i: {fileID: 0}
+  u: {fileID: 0}
+  e: {fileID: 0}
+  o: {fileID: 0}
+  ka: {fileID: 0}
+  ki: {fileID: 0}
+  ku: {fileID: 0}
+  ke: {fileID: 0}
+  ko: {fileID: 0}
+  sa: {fileID: 0}
+  shi: {fileID: 0}
+  su: {fileID: 0}
+  se: {fileID: 0}
+  so: {fileID: 0}
+  ta: {fileID: 0}
+  chi: {fileID: 0}
+  tsu: {fileID: 0}
+  te: {fileID: 0}
+  to: {fileID: 0}
+  na: {fileID: 0}
+  ni: {fileID: 0}
+  nu: {fileID: 0}
+  ne: {fileID: 0}
+  no: {fileID: 0}
+  ha: {fileID: 0}
+  hi: {fileID: 0}
+  fu: {fileID: 0}
+  he: {fileID: 0}
+  ho: {fileID: 0}
+  ma: {fileID: 0}
+  mi: {fileID: 0}
+  mu: {fileID: 0}
+  me: {fileID: 0}
+  mo: {fileID: 0}
+  ya: {fileID: 0}
+  yu: {fileID: 0}
+  yo: {fileID: 0}
+  ra: {fileID: 0}
+  ri: {fileID: 0}
+  ru: {fileID: 0}
+  re: {fileID: 0}
+  ro: {fileID: 0}
+  wa: {fileID: 0}
+  wo: {fileID: 0}
+  n: {fileID: 0}
+--- !u!222 &5505584509135974623
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6636252774317477154}
+  m_CullTransparentMesh: 1
+--- !u!114 &3508766562092491220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6636252774317477154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &6636252774633170782
 GameObject:
   m_ObjectHideFlags: 0

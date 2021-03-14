@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class KanaUI : MonoBehaviour
 {
     public KanaGrid kanaGrid;
-    [Header("当前假名")]
-    public string kana;
+    public string romaji;
+
     [Header("罗马字文本")]
     public Text romajiText;
     [Header("假名图片")]
@@ -17,6 +17,130 @@ public class KanaUI : MonoBehaviour
     public Image strokeImage;
     [Header("演变图片")]
     public Image devImage;
+
+    [Header("a")]
+    public KanaUICard a;
+    public KanaUICard i;
+    public KanaUICard u;
+    public KanaUICard e;
+    public KanaUICard o;
+    [Header("ka")]
+    public KanaUICard ka;
+    public KanaUICard ki;
+    public KanaUICard ku;
+    public KanaUICard ke;
+    public KanaUICard ko;
+    [Header("sa")]
+    public KanaUICard sa;
+    public KanaUICard shi;
+    public KanaUICard su;
+    public KanaUICard se;
+    public KanaUICard so;
+    [Header("ta")]
+    public KanaUICard ta;
+    public KanaUICard chi;
+    public KanaUICard tsu;
+    public KanaUICard te;
+    public KanaUICard to;
+    [Header("na")]
+    public KanaUICard na;
+    public KanaUICard ni;
+    public KanaUICard nu;
+    public KanaUICard ne;
+    public KanaUICard no;
+    [Header("ha")]
+    public KanaUICard ha;
+    public KanaUICard hi;
+    public KanaUICard fu;
+    public KanaUICard he;
+    public KanaUICard ho;
+    [Header("ma")]
+    public KanaUICard ma;
+    public KanaUICard mi;
+    public KanaUICard mu;
+    public KanaUICard me;
+    public KanaUICard mo;
+    [Header("ya")]
+    public KanaUICard ya;
+    public KanaUICard yu;
+    public KanaUICard yo;
+    [Header("ra")]
+    public KanaUICard ra;
+    public KanaUICard ri;
+    public KanaUICard ru;
+    public KanaUICard re;
+    public KanaUICard ro;
+    [Header("wa")]
+    public KanaUICard wa;
+    public KanaUICard wo;
+    [Header("n")]
+    public KanaUICard n;
+
+    /*
+    [Header("片假名")]
+    [Header("a")]
+    public KanaUICard aKata;
+    public KanaUICard iKata;
+    public KanaUICard uKata;
+    public KanaUICard eKata;
+    public KanaUICard oKata;
+    [Header("ka")]
+    public KanaUICard kaKata;
+    public KanaUICard kiKata;
+    public KanaUICard kuKata;
+    public KanaUICard keKata;
+    public KanaUICard koKata;
+    [Header("sa")]
+    public KanaUICard saKata;
+    public KanaUICard shiKata;
+    public KanaUICard suKata;
+    public KanaUICard seKata;
+    public KanaUICard soKata;
+    [Header("ta")]
+    public KanaUICard taKata;
+    public KanaUICard chiKata;
+    public KanaUICard tsuKata;
+    public KanaUICard teKata;
+    public KanaUICard toKata;
+    [Header("na")]
+    public KanaUICard naKata;
+    public KanaUICard niKata;
+    public KanaUICard nuKata;
+    public KanaUICard neKata;
+    public KanaUICard noKata;
+    [Header("ha")]
+    public KanaUICard haKata;
+    public KanaUICard hiKata;
+    public KanaUICard fuKata;
+    public KanaUICard heKata;
+    public KanaUICard hoKata;
+    [Header("ma")]
+    public KanaUICard maKata;
+    public KanaUICard miKata;
+    public KanaUICard muKata;
+    public KanaUICard meKata;
+    public KanaUICard moKata;
+    [Header("ya")]
+    public KanaUICard yaKata;
+    public KanaUICard yuKata;
+    public KanaUICard yoKata;
+    [Header("ra")]
+    public KanaUICard raKata;
+    public KanaUICard riKata;
+    public KanaUICard ruKata;
+    public KanaUICard reKata;
+    public KanaUICard roKata;
+    [Header("wa")]
+    public KanaUICard waKata;
+    public KanaUICard woKata;
+    [Header("n")]
+    public KanaUICard nKata;
+    */
+
+    /*
+
+    [Header("当前假名")]
+    public string kana;
     [Header("a")]
     public Sprite a;
     public Sprite i;
@@ -360,6 +484,7 @@ public class KanaUI : MonoBehaviour
     public Sprite nKataStroke;
 
     public Sprite nKataDev;
+    */
     // Start is called before the first frame update
     void Start()
     {
@@ -369,24 +494,204 @@ public class KanaUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // GotoKana(kana);
+        RenderKana();
     }
 
-    public void GotoKana(string kana)
+    public void RenderKana()
     {
+        switch (romaji)
+        {
+            default:
+            case "":
+            ///a
+            case "a":
+                Set(romaji, a);
+                break;
+            case "i":
+                Set(romaji, i);
+                break;
+            case "u":
+                Set(romaji, u);
+                break;
+            case "e":
+                Set(romaji, e);
+                break;
+            case "o":
+                Set(romaji, o);
+                break;
+            ///ka
+            case "ka":
+                Set(romaji, ka);
+                break;
+            case "ki":
+                Set(romaji, ki);
+                break;
+            case "ku":
+                Set(romaji, ku);
+                break;
+            case "ke":
+                Set(romaji, ke);
+                break;
+            case "ko":
+                Set(romaji, ko);
+                break;
+            ///sa
+            case "sa":
+                Set(romaji, sa);
+                break;
+            case "shi/si":
+            case "shi":
+            case "si":
+                Set(romaji, shi);
+                break;
+            case "su":
+                Set(romaji, su);
+                break;
+            case "se":
+                Set(romaji, se);
+                break;
+            case "so":
+                Set(romaji, so);
+                break;
+            ///ta
+            case "ta":
+                Set(romaji, ta);
+                break;
+            case "chi/ti":
+            case "chi":
+            case "ti":
+                Set(romaji, chi);
+                break;
+            case "tsu/tu":
+            case "tsu":
+            case "tu":
+                Set(romaji, tsu);
+                break;
+            case "te":
+                Set(romaji, te);
+                break;
+            case "to":
+                Set(romaji, to);
+                break;
+            ///na
+            case "na":
+                Set(romaji, na);
+                break;
+            case "ni":
+                Set(romaji, ni);
+                break;
+            case "nu":
+                Set(romaji, nu);
+                break;
+            case "ne":
+                Set(romaji, ne);
+                break;
+            case "no":
+                Set(romaji, no);
+                break;
+            ///ha
+            case "ha":
+                Set(romaji, ha);
+                break;
+            case "hi":
+                Set(romaji, hi);
+                break;
+            case "fu/hu":
+            case "fu":
+            case "hu":
+                Set(romaji, fu);
+                break;
+            case "he":
+                Set(romaji, he);
+                break;
+            case "ho":
+                Set(romaji, ho);
+                break;
+            ///ma
+            case "ma":
+                Set(romaji, ma);
+                break;
+            case "mi":
+                Set(romaji, mi);
+                break;
+            case "mu":
+                Set(romaji, mu);
+                break;
+            case "me":
+                Set(romaji, me);
+                break;
+            case "mo":
+                Set(romaji, mo);
+                break;
+            ///ya
+            case "ya":
+                Set(romaji, ya);
+                break;
+            case "yu":
+                Set(romaji, yu);
+                break;
+            case "yo":
+                Set(romaji, yo);
+                break;
+            ///ra
+            case "ra":
+                Set(romaji, ra);
+                break;
+            case "ri":
+                Set(romaji, ri);
+                break;
+            case "ru":
+                Set(romaji, ru);
+                break;
+            case "re":
+                Set(romaji, re);
+                break;
+            case "ro":
+                Set(romaji, ro);
+                break;
+            ///wa
+            case "wa":
+                Set(romaji, wa);
+                break;
+            case "wo":
+            case "(w)o":
+                Set(romaji, wo);
+                break;
+            ///n
+            case "n":
+                Set(romaji, n);
+                break;
+
+        }
+    }
+
+    public void GotoKana(string romaji)
+    {
+        this.romaji = romaji;
+        RenderKana();
+    }
+
+    public void SetKana(string romaji)
+    {
+        this.romaji = romaji;
+        /*
         switch (kanaGrid.kanaType)
         {
             default:
                 break;
             case KanaGrid.EKanaType.Hiragana:
-                GotoHiragana(kana);
+                //GotoHiragana(kana);
+                Set(kana,)
                 break;
             case KanaGrid.EKanaType.Katakana:
                 GotoKatakana(kana);
                 break;
         }
+        */
+
     }
 
+    /*
     void GotoHiragana(string kana)
     {
         switch (kana)
@@ -397,160 +702,162 @@ public class KanaUI : MonoBehaviour
             ///a
             case "":
             case "a":
-                Set("a", a, aStroke, aDev);
+                Set("a", aHira);
                 break;
             case "i":
-                Set("i", i, iStroke, iDev);
+                Set("i", iHira);
                 break;
             case "u":
-                Set("u", u, uStroke, uDev);
+                Set("u", uHira);
                 break;
             case "e":
-                Set("e", e, eStroke, eDev);
+                Set("e", eHira);
                 break;
             case "o":
-                Set("o", o, oStroke, oDev);
+                Set("o", oHira);
                 break;
             ///ka
             case "ka":
-                Set("ka", ka, kaStroke, kaDev);
+                Set("ka", kaHira);
                 break;
             case "ki":
-                Set("ki", ki, kiStroke, kiDev);
+                Set("ki", kiHira);
                 break;
             case "ku":
-                Set("ku", ku, kuStroke, kuDev);
+                Set("ku", kuHira);
                 break;
             case "ke":
-                Set("ke", ke, keStroke, keDev);
+                Set("ke", keHira);
                 break;
             case "ko":
-                Set("ko", ko, koStroke, koDev);
+                Set("ko", koHira);
                 break;
             ///sa
             case "sa":
-                Set("sa", sa, saStroke, saDev);
+                Set("sa", saHira);
                 break;
             case "shi":
             case "si":
-                Set("shi/si", shi, shiStroke, shiDev);
+                Set("shi/si", shiHira);
                 break;
             case "su":
-                Set("su", su, suStroke, suDev);
+                Set("su", suHira);
                 break;
             case "se":
-                Set("se", se, seStroke, seDev);
+                Set("se", seHira);
                 break;
             case "so":
-                Set("so", so, soStroke, soDev);
+                Set("so", soHira);
                 break;
             ///ta
             case "ta":
-                Set("ta", ta, taStroke, taDev);
+                Set("ta", taHira);
                 break;
             case "chi":
             case "ti":
-                Set("chi/ti", chi, chiStroke, chiDev);
+                Set("chi/ti", chiHira);
                 break;
             case "tsu":
             case "tu":
-                Set("tsu/tu", tsu, tsuStroke, tsuDev);
+                Set("tsu/tu", tsuHira);
                 break;
             case "te":
-                Set("te", te, teStroke, teDev);
+                Set("te", teHira);
                 break;
             case "to":
-                Set("to", to, toStroke, toDev);
+                Set("to", toHira);
                 break;
             ///na
             case "na":
-                Set("na", na, naStroke, naDev);
+                Set("na", naHira);
                 break;
             case "ni":
-                Set("ni", ni, niStroke, niDev);
+                Set("ni", niHira);
                 break;
             case "nu":
-                Set("nu", nu, nuStroke, nuDev);
+                Set("nu", nuHira);
                 break;
             case "ne":
-                Set("ne", ne, neStroke, neDev);
+                Set("ne", neHira);
                 break;
             case "no":
-                Set("no", no, noStroke, noDev);
+                Set("no", noHira);
                 break;
             ///ha
             case "ha":
-                Set("ha", ha, haStroke, haDev);
+                Set("ha", haHira);
                 break;
             case "hi":
-                Set("hi", hi, hiStroke, hiDev);
+                Set("hi", hiHira);
                 break;
             case "fu":
             case "hu":
-                Set("hu", fu, fuStroke, fuDev);
+                Set("hu", fuHira);
                 break;
             case "he":
-                Set("he", he, heStroke, heDev);
+                Set("he", heHira);
                 break;
             case "ho":
-                Set("ho", ho, hoStroke, hoDev);
+                Set("ho", hoHira);
                 break;
             ///ma
             case "ma":
-                Set("ma", ma, maStroke, maDev);
+                Set("ma", maHira);
                 break;
             case "mi":
-                Set("mi", mi, miStroke, miDev);
+                Set("mi", miHira);
                 break;
             case "mu":
-                Set("mu", mu, muStroke, muDev);
+                Set("mu", muHira);
                 break;
             case "me":
-                Set("me", me, meStroke, meDev);
+                Set("me", meHira);
                 break;
             case "mo":
-                Set("mo", mo, moStroke, moDev);
+                Set("mo", moHira);
                 break;
             ///ya
             case "ya":
-                Set("ya", ya, yaStroke, yaDev);
+                Set("ya", yaHira);
                 break;
             case "yu":
-                Set("yu", yu, yuStroke, yuDev);
+                Set("yu", yuHira);
                 break;
             case "yo":
-                Set("yo", yo, yoStroke, yoDev);
+                Set("yo", yoHira);
                 break;
             ///ra
             case "ra":
-                Set("ra", ra, raStroke, raDev);
+                Set("ra", raHira);
                 break;
             case "ri":
-                Set("ri", ri, riStroke, riDev);
+                Set("ri", riHira);
                 break;
             case "ru":
-                Set("ru", ru, ruStroke, ruDev);
+                Set("ru", ruHira);
                 break;
             case "re":
-                Set("re", re, reStroke, reDev);
+                Set("re", reHira);
                 break;
             case "ro":
-                Set("ro", ro, roStroke, roDev);
+                Set("ro", roHira);
                 break;
             ///wa
             case "wa":
-                Set("wa", wa, waStroke, waDev);
+                Set("wa", waHira);
                 break;
             case "wo":
-                Set("wo", wo, woStroke, woDev);
+                Set("wo", woHira);
                 break;
             ///n
             case "n":
-                Set("n", n, nStroke, nDev);
+                Set("n", nHira);
                 break;
         }
     }
 
+    */
+    /*
     void GotoKatakana(string kana)
     {
         switch (kana)
@@ -560,159 +867,160 @@ public class KanaUI : MonoBehaviour
                 break;
             ///a
             case "a":
-                Set("a", aKata, aKataStroke, aKataDev);
+                Set("a", aKata);
                 break;
             case "i":
-                Set("i", iKata, iKataStroke, iKataDev);
+                Set("i", iKata);
                 break;
             case "u":
-                Set("u", uKata, uKataStroke, uKataDev);
+                Set("u", uKata);
                 break;
             case "e":
-                Set("e", eKata, eKataStroke, eKataDev);
+                Set("e", eKata);
                 break;
             case "o":
-                Set("o", oKata, oKataStroke, oKataDev);
+                Set("o", oKata);
                 break;
             ///ka
             case "ka":
-                Set("ka", kaKata, kaKataStroke, kaKataDev);
+                Set("ka", kaKata);
                 break;
             case "ki":
-                Set("ki", kiKata, kiKataStroke, kiKataDev);
+                Set("ki", kiKata);
                 break;
             case "ku":
-                Set("ku", kuKata, kuKataStroke, kuKataDev);
+                Set("ku", kuKata);
                 break;
             case "ke":
-                Set("ke", keKata, keKataStroke, keKataDev);
+                Set("ke", keKata);
                 break;
             case "ko":
-                Set("ko", koKata, koKataStroke, koKataDev);
+                Set("ko", koKata);
                 break;
             ///sa
             case "sa":
-                Set("sa", saKata, saKataStroke, saKataDev);
+                Set("sa", saKata);
                 break;
             case "shi":
             case "si":
-                Set("shi/si", shiKata, shiKataStroke, shiKataDev);
+                Set("shi/si", shiKata);
                 break;
             case "su":
-                Set("su", suKata, suKataStroke, suKataDev);
+                Set("su", suKata);
                 break;
             case "se":
-                Set("se", seKata, seKataStroke, seKataDev);
+                Set("se", seKata);
                 break;
             case "so":
-                Set("so", soKata, soKataStroke, soKataDev);
+                Set("so", soKata);
                 break;
             ///ta
             case "ta":
-                Set("ta", taKata, taKataStroke, taKataDev);
+                Set("ta", taKata);
                 break;
             case "chi":
             case "ti":
-                Set("chi/ti", chiKata, chiKataStroke, chiKataDev);
+                Set("chi/ti", chiKata);
                 break;
             case "tsu":
             case "tu":
-                Set("tsu/tu", tsuKata, tsuKataStroke, tsuKataDev);
+                Set("tsu/tu", tsuKata);
                 break;
             case "te":
-                Set("te", teKata, teKataStroke, teKataDev);
+                Set("te", teKata);
                 break;
             case "to":
-                Set("to", toKata, toKataStroke, toKataDev);
+                Set("to", toKata);
                 break;
             ///na
             case "na":
-                Set("na", naKata, naKataStroke, naKataDev);
+                Set("na", naKata);
                 break;
             case "ni":
-                Set("ni", niKata, niKataStroke, niKataDev);
+                Set("ni", niKata);
                 break;
             case "nu":
-                Set("nu", nuKata, nuKataStroke, nuKataDev);
+                Set("nu", nuKata);
                 break;
             case "ne":
-                Set("ne", neKata, neKataStroke, neKataDev);
+                Set("ne", neKata);
                 break;
             case "no":
-                Set("no", noKata, noKataStroke, noKataDev);
+                Set("no", noKata);
                 break;
             ///ha
             case "ha":
-                Set("ha", haKata, haKataStroke, haKataDev);
+                Set("ha", haKata);
                 break;
             case "hi":
-                Set("hi", hiKata, hiKataStroke, hiKataDev);
+                Set("hi", hiKata);
                 break;
             case "fu":
             case "hu":
-                Set("hu", fuKata, fuKataStroke, fuKataDev);
+                Set("hu", fuKata);
                 break;
             case "he":
-                Set("he", heKata, heKataStroke, heKataDev);
+                Set("he", heKata);
                 break;
             case "ho":
-                Set("ho", hoKata, hoKataStroke, hoKataDev);
+                Set("ho", hoKata);
                 break;
             ///ma
             case "ma":
-                Set("ma", maKata, maKataStroke, maKataDev);
+                Set("ma", maKata);
                 break;
             case "mi":
-                Set("mi", miKata, miKataStroke, miKataDev);
+                Set("mi", miKata);
                 break;
             case "mu":
-                Set("mu", muKata, muKataStroke, muKataDev);
+                Set("mu", muKata);
                 break;
             case "me":
-                Set("me", meKata, meKataStroke, meKataDev);
+                Set("me", meKata);
                 break;
             case "mo":
-                Set("mo", moKata, moKataStroke, moKataDev);
+                Set("mo", moKata);
                 break;
             ///ya
             case "ya":
-                Set("ya", yaKata, yaKataStroke, yaKataDev);
+                Set("ya", yaKata);
                 break;
             case "yu":
-                Set("yu", yuKata, yuKataStroke, yuKataDev);
+                Set("yu", yuKata);
                 break;
             case "yo":
-                Set("yo", yoKata, yoKataStroke, yoKataDev);
+                Set("yo", yoKata);
                 break;
             ///ra
             case "ra":
-                Set("ra", raKata, raKataStroke, raKataDev);
+                Set("ra", raKata);
                 break;
             case "ri":
-                Set("ri", riKata, riKataStroke, riKataDev);
+                Set("ri", riKata);
                 break;
             case "ru":
-                Set("ru", ruKata, ruKataStroke, ruKataDev);
+                Set("ru", ruKata);
                 break;
             case "re":
-                Set("re", reKata, reKataStroke, reKataDev);
+                Set("re", reKata);
                 break;
             case "ro":
-                Set("ro", roKata, roKataStroke, roKataDev);
+                Set("ro", roKata);
                 break;
             ///wa
             case "wa":
-                Set("wa", waKata, waKataStroke, waKataDev);
+                Set("wa", waKata);
                 break;
             case "wo":
-                Set("wo", woKata, woKataStroke, woKataDev);
+                Set("wo", woKata);
                 break;
             ///n
             case "n":
-                Set("n", nKata, nKataStroke, nKataDev);
+                Set("n", nKata);
                 break;
         }
     }
+    */
 
     void Set(string romaji, Sprite kana, Sprite stroke, Sprite dev)
     {
@@ -720,5 +1028,19 @@ public class KanaUI : MonoBehaviour
         kanaImage.sprite = kana;
         strokeImage.sprite = stroke;
         devImage.sprite = dev;
+    }
+
+    void Set(string romaji, KanaUICard card)
+    {
+        switch (kanaGrid.kanaType)
+        {
+            default:
+            case KanaGrid.EKanaType.Hiragana:
+                Set(romaji, card.hiragana, card.hiraStroke, card.hiraDev);
+                break;
+            case KanaGrid.EKanaType.Katakana:
+                Set(romaji, card.katakana, card.kataStroke, card.kataDev);
+                break;
+        }
     }
 }

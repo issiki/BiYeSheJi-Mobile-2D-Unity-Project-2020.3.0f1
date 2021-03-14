@@ -8,6 +8,7 @@ public class KanaPronunciation : MonoBehaviour
     public Camera Cam;
     public AudioSource AudioSource;
     public string LayerName;
+    public string kana;
 
     [Header("a")]
     public AudioClip A;
@@ -288,6 +289,7 @@ public class KanaPronunciation : MonoBehaviour
 
     public void Play(string kana)
     {
+        this.kana = kana;
         switch (kana)
         {
             case "":
@@ -447,6 +449,11 @@ public class KanaPronunciation : MonoBehaviour
                 Play(N);
                 break;
         }
+    }
+
+    public void Play()
+    {
+        Play(kana);
     }
 }
 
