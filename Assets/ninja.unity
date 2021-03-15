@@ -166,6 +166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043d5c453cd196744aedfd580aad8e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  limitedSeconds: 0
+  options: []
+  countDown: {fileID: 0}
 --- !u!1 &702930013
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,6 +298,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44da69d6e48ecd848929f2382c94de58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collider2d: {fileID: 1080894282}
+  isRightAnswer: 0
+  isChecked: 0
 --- !u!4 &1080894284
 Transform:
   m_ObjectHideFlags: 0
