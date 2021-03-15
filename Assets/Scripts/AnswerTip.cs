@@ -7,23 +7,26 @@ using System.Linq;
 [ExecuteInEditMode]
 public class AnswerTip : MonoBehaviour
 {
-    //public string question;
-    /// <summary>
-    /// 全都是正确答案，随机抽2个可以出题
-    /// </summary>
-    [Header("分别对应罗马字、平假名、片假名")]
-    public List<string> answers;
-
     /// <summary>
     /// 随机的题目
     /// </summary>
-    [Header("随机出题系统用的Q和A")]
+    [Header("题目")]
+    public List<string> questions;
+
+    /// <summary>
+    /// 全都是正确答案，随机抽2个可以出题
+    /// </summary>
+    [Header("答案")]
+    public List<string> answers;
+
+    [Header("随机的题目和答案")]
     public string q;
+    public string a;
 
     /// <summary>
     /// 随机的答案
     /// </summary>
-    public string a;
+    //public string[] a;
 
     /// <summary>
     /// 与这组答案有关的提示
@@ -43,11 +46,12 @@ public class AnswerTip : MonoBehaviour
     {
 
 #if UNITY_EDITOR
-        if (answers.Count > 0)
+        if (questions.Count > 0)
         {
-            answers[0] = gameObject.name;
+            questions[0] = gameObject.name;
         }
 #endif
+
 
     }
 
@@ -68,11 +72,12 @@ public class AnswerTip : MonoBehaviour
     /// </summary>
     public void RandomQA()
     {
-        ///打乱自身
+        ///打乱自身,
         var list = answers.OrderBy(item => rand.Next()).ToList();
-        ///将前两个值赋值给q和a
-        q = list[0];
-        a = list[1];
+        a = list.First();
+        ///打乱自身,
+        var qList = questions.OrderBy(item => rand.Next()).ToList();
+        q = qList.First();
     }
 
     public IEnumerable<string> RandomTip()

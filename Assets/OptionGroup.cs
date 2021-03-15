@@ -57,4 +57,20 @@ public class OptionGroup : MonoBehaviour
         }
     }
     */
+
+    public void UnlockButtons()
+    {
+        for (var i = 0; i < children.Count; i++)
+        {
+            children[i].UnlockButton();
+        }
+    }
+
+    public void LockButtons()
+    {
+        for (var i = 0; i < children.Count; i++)
+        {
+            children[i].LockButton();
+        }
+    }
 }

@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class OptionButton : MonoBehaviour
 {
     [Header("自身属性，勿修改")]
+    public Button button;
     public Text text;
     public string content;
 
@@ -16,12 +17,13 @@ public class OptionButton : MonoBehaviour
     {
         get => !isRightAnswer;
     }
-
+    /*
     public bool isChecked = false;
     public bool isNOTChecked
     {
         get => isChecked;
     }
+    */
     // Start is called before the first frame update
     void Start()
     {
@@ -50,14 +52,14 @@ public class OptionButton : MonoBehaviour
     {
         content = answer;
         isRightAnswer = true;
-        isChecked = false;
+        //isChecked = false;
         text.text = answer;
     }
     public void SetWrongAnswer(string answer)
     {
         content = answer;
         isRightAnswer = false;
-        isChecked = false;
+        //isChecked = false;
         text.text = answer;
     }
 
@@ -67,5 +69,15 @@ public class OptionButton : MonoBehaviour
     public void Judge()
     {
         Debug.Log($"这是正确答案吗？{isRightAnswer}");
+    }
+
+    public void LockButton()
+    {
+        button.interactable = false;
+    }
+
+    public void UnlockButton()
+    {
+        button.interactable = true;
     }
 }
