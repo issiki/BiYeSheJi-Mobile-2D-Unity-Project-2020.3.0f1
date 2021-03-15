@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4322701210824580641}
   - component: {fileID: 4322701210824580640}
   m_Layer: 0
-  m_Name: a
+  m_Name: Answer Tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,9 +44,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questions:
-  - a
+  - Answer Tip
   answers:
-  - 
   - 
   - 
   q: 
