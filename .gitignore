@@ -38,3 +38,6 @@ sysinfo.txt
 
 # Logs
 *.log
+
+# Removed
+*.removed

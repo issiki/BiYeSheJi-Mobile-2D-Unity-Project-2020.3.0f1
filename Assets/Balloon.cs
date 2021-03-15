@@ -20,7 +20,9 @@ public class Balloon : MonoBehaviour
     {
         if (flying)
         {
-            var direction = destination.position - transform.position;
+            var delta = destination.position - transform.position;
+            var direction = new Vector2(delta.x, delta.y);
+
             if (direction.magnitude <= 1f)
             {
                 transform.position = destination.position;
@@ -28,8 +30,8 @@ public class Balloon : MonoBehaviour
                 return;
             }
             direction.Normalize();
-            rigidbody2d.AddForce(direction * speed * Time.deltaTime);
-
+            //rigidbody2d.AddForce(direction * speed * Time.deltaTime);
+            rigidbody2d.MovePosition(rigidbody2d.position + direction * speed * Time.deltaTime);
 
         }
         else
