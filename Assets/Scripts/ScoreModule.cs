@@ -21,7 +21,7 @@ public class ScoreModule : MonoBehaviour
         scoreText.text = $"{score}";
     }
 
-    void ScoreIncreaseBy(int more)
+    public void ScoreIncreaseBy(int more)
     {
         score += more;
         SaveScore();

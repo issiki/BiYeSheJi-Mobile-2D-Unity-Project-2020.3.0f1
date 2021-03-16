@@ -7,14 +7,24 @@ using System.Linq;
 
 public class QuestionLibrary : MonoBehaviour
 {
+    public ScoreModule scoreModule;
     [Header("出题的文本区")]
     public Text questionText;
+    public string q
+    {
+        get => questionText.text;
+        set => questionText.text = value;
+    }
 
     [Header("可选项的按钮")]
-    public OptionGroup optionButtonsGroup;
+    //public OptionGroup optionButtonsGroup;
+    public List<OptionButton> optionButtons;
 
-    [Header("预定义的问题")]
-    public List<AnswerTip> answers;
+    //public string q;
+    public string a;
+
+    [Header("预定义的题库")]
+    public List<AnswerTip> library;
 
     /// <summary>
     /// 随机数
@@ -35,31 +45,116 @@ public class QuestionLibrary : MonoBehaviour
 
     public void NewQuestion()
     {
-        ///打乱自身
-        var answersShuffled = answers.OrderBy(item => rand.Next()).ToList();
+        ///解锁选项按钮
+        for (var i = 0; i < optionButtons.Count; i++)
+        {
+            optionButtons[i].UnlockButton();
+        }
 
-        ///根据选项的数量进行出题，填满
-        var tempList = new List<AnswerTip>(optionButtonsGroup.children.Count);
+        ///打乱题库
+        var libraryShuffled = library.OrderBy(item => rand.Next()).ToList();
+
+        ///根据选项的数量准备题目
+        var tempList = new List<AnswerTip>(optionButtons.Count);
         for (var i = 0; i < tempList.Capacity; i++)
         {
-            answersShuffled[i].RandomQA();
+            ///题目已经乱序
+            libraryShuffled[i].RandomQA();
 
-            tempList.Add(answersShuffled[i]);
+            tempList.Add(libraryShuffled[i]);
         }
 
         ///打乱
         var list = tempList.OrderBy(item => rand.Next()).ToList();
         ///对题目进行赋值
-        questionText.text = list[0].q;
+        q = list[0].q;
         ///打乱选项
-        var optionsShuffled = optionButtonsGroup.children.OrderBy(item => rand.Next()).ToList();
+        var optionsShuffled = optionButtons.OrderBy(item => rand.Next()).ToList();
         ///赋值正确项
-        optionsShuffled[0].SetRightAnswer(list[0].a);
+        a = list[0].a;
+        //optionsShuffled[0].SetRightAnswer(list[0].a);
 
         ///赋值错误项
-        for (var i = 1; i < optionButtonsGroup.children.Count; i++)
+        for (var i = 0; i < optionButtons.Count; i++)
         {
-            optionsShuffled[i].SetWrongAnswer(list[i].a);
+            optionsShuffled[i].SetOptionContent(list[i].a);
+        }
+    }
+
+    /*
+    public void Judge()
+    {
+        for (var i = 0; i < optionButtons.Count; i++)
+        {
+            var button = optionButtons[i];
+            ///锁定按钮，防止继续点
+            button.LockButton();
+
+            if (button.isChecked)
+            {
+                if (button.content == a)
+                {
+                    //button.Right();
+                    Debug.Log("选择了正确的答案");
+                }
+                else
+                {
+                    //button.Wrong();
+                    Debug.Log("选择了错误的答案");
+                }
+            }
+            else
+            {
+                // button.NotCheck();
+                Debug.Log("没有选择此项");
+            }
+        }
+    }
+    */
+
+    public void JudgeChoise(OptionButton optionButton)
+    {
+        JudgeChoise(optionButton.content);
+    }
+
+    public void JudgeChoise(string choice)
+    {
+        if (choice == a)
+        {
+            Debug.Log($"正解！{choice}");
+            scoreModule.ScoreIncreaseBy(100);
+        }
+        else
+        {
+            Debug.Log($"不正确！{choice}");
+        }
+
+        for (var i = 0; i < optionButtons.Count; i++)
+        {
+            var button = optionButtons[i];
+            ///锁定按钮，防止继续点
+            button.LockButton();
+
+            /*
+            if (button.isChecked)
+            {
+                if (button.content == a)
+                {
+                    //button.Right();
+                    Debug.Log("选择了正确的答案");
+                }
+                else
+                {
+                    //button.Wrong();
+                    Debug.Log("选择了错误的答案");
+                }
+            }
+            else
+            {
+                // button.NotCheck();
+                Debug.Log("没有选择此项");
+            }
+            */
         }
     }
 }

@@ -9,14 +9,25 @@ public class OptionButton : MonoBehaviour
     [Header("自身属性，勿修改")]
     public Button button;
     public Text text;
-    public string content;
+    public string content
+    {
+        set => text.text = value;
+        get => text.text;
+    }
+    //public bool isChecked = false;
 
     [Header("其他属性")]
+    public Image image;
+
+    /*
     public bool isRightAnswer = false;
     public bool isWrongAnser
     {
         get => !isRightAnswer;
     }
+    */
+
+
     /*
     public bool isChecked = false;
     public bool isNOTChecked
@@ -27,9 +38,10 @@ public class OptionButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        //image.col
     }
 
+    /*
     // Update is called once per frame
     void Update()
     {
@@ -39,6 +51,7 @@ public class OptionButton : MonoBehaviour
         text.text = content;
 
     }
+    */
 
     /*
     public void Reset()
@@ -48,21 +61,55 @@ public class OptionButton : MonoBehaviour
     }
     */
 
-    public void SetRightAnswer(string answer)
+    /*
+    public void CheckThis()
     {
-        content = answer;
-        isRightAnswer = true;
-        //isChecked = false;
-        text.text = answer;
+        isChecked = true;
     }
+
+    public void UncheckThis()
+    {
+        isChecked = false;
+    }
+    */
+
+    /*
+
+    public void NotCheck()
+    {
+        image.color = Color.white;
+    }
+
+    public void Right()
+    {
+        image.color = Color.green;
+    }
+
+    public void Wrong()
+    {
+        image.color = Color.red;
+    }
+    */
+
+
+    public void SetOptionContent(string optionContent)
+    {
+        content = optionContent;
+        //isRightAnswer = true;
+        //isChecked = false;
+        //this.text.text = optionContent;
+    }
+    /*
     public void SetWrongAnswer(string answer)
     {
         content = answer;
-        isRightAnswer = false;
+        //isRightAnswer = false;
         //isChecked = false;
         text.text = answer;
     }
+    */
 
+    /*
     /// <summary>
     /// 判断正误
     /// </summary>
@@ -70,6 +117,7 @@ public class OptionButton : MonoBehaviour
     {
         Debug.Log($"这是正确答案吗？{isRightAnswer}");
     }
+    */
 
     public void LockButton()
     {
