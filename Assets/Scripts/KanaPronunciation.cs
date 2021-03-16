@@ -454,6 +454,7 @@ public class KanaPronunciation : MonoBehaviour
 
     public void Play(Text textComp)
     {
+        Debug.Log($"try play {textComp.text}");
         Play(textComp.text);
     }
 
