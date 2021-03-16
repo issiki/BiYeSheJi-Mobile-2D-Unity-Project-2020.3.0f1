@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4607125540147704145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4607125540147704150}
+  - component: {fileID: 4607125540147704151}
+  m_Layer: 0
+  m_Name: Kana Pronunciation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4607125540147704150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4607125540147704145}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4607125540147704151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4607125540147704145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3c5a93d234748c4da73da4f2409318f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cam: {fileID: 0}
+  AudioSource: {fileID: 0}
+  LayerName: HatsuonCollider2D
+  kana: 
+  A: {fileID: 8300000, guid: 75008dbca8e8461428d93c8433713ec5, type: 3}
+  I: {fileID: 8300000, guid: c7f7b6cffd77d40449e9d8ee88525368, type: 3}
+  U: {fileID: 8300000, guid: a14f0371a2001384bb4db6a375382767, type: 3}
+  E: {fileID: 8300000, guid: 9ac0592448c20214296e964dd6fdf291, type: 3}
+  O: {fileID: 8300000, guid: 77a1c9d98c114ee408da02afec30fdab, type: 3}
+  Ka: {fileID: 8300000, guid: b8dd72eb0e35d8047a5cfaa387c9f2a3, type: 3}
+  Ki: {fileID: 8300000, guid: cfb076e216c268e44b1b123333fe01ea, type: 3}
+  Ku: {fileID: 8300000, guid: 173eab5e0150e6d4488596cf784c99ed, type: 3}
+  Ke: {fileID: 8300000, guid: 4944a45383c933a45bd6b9ae07420f4a, type: 3}
+  Ko: {fileID: 8300000, guid: 782bf3f4c6adbe040b91528d15f8cb4e, type: 3}
+  Sa: {fileID: 8300000, guid: 5badeb39f1acd524382fe9704d492e97, type: 3}
+  Shi: {fileID: 8300000, guid: fad77468c57ebbb469d8a01d6efb71ad, type: 3}
+  Su: {fileID: 8300000, guid: bd29a376ca788ff4e953197b67f78e02, type: 3}
+  Se: {fileID: 8300000, guid: f1951d27cc21ef3439381ad1d2e5b75e, type: 3}
+  So: {fileID: 8300000, guid: 5e47ac8c2a628e348ab62f1357c36d1a, type: 3}
+  Ta: {fileID: 8300000, guid: 82fd3c49a74c4d848ad378687fdd3297, type: 3}
+  Chi: {fileID: 8300000, guid: 87cc626cf238c2c479bc65919d33a806, type: 3}
+  Tsu: {fileID: 8300000, guid: f234122b32900d247bede7b45b12b8c1, type: 3}
+  Te: {fileID: 8300000, guid: 8a8a82fe83c5e5b4e979ee8941c86393, type: 3}
+  To: {fileID: 8300000, guid: d6c7d2c8bda10a24bbf860188b4e33c4, type: 3}
+  Na: {fileID: 8300000, guid: 2e9d222afb251644d89fa3ddaaae4d5c, type: 3}
+  Ni: {fileID: 8300000, guid: 85c345bc4c7997148a4a3ba23eaed7d2, type: 3}
+  Nu: {fileID: 8300000, guid: f0550114a53e0324290496f02fe91912, type: 3}
+  Ne: {fileID: 8300000, guid: f04a480ee359892468cb1f4adb06a060, type: 3}
+  No: {fileID: 8300000, guid: 242290d5855a46f42b32958cdb689a01, type: 3}
+  Ha: {fileID: 8300000, guid: a5f7b0a7190216c47a9473bae5fa03f1, type: 3}
+  Hi: {fileID: 8300000, guid: f8b5175fa82c2cc4c8aeb284bdc9461d, type: 3}
+  Fu: {fileID: 8300000, guid: be890f547defa804aa090f89e12237bc, type: 3}
+  He: {fileID: 8300000, guid: 82d9b2b97b4b18e47b93b33905f69b9c, type: 3}
+  Ho: {fileID: 8300000, guid: 5d502b90ff0115a4c9fd5e2635b2bbf2, type: 3}
+  Ma: {fileID: 8300000, guid: a78924ff450a5d8469f530c255f1e992, type: 3}
+  Mi: {fileID: 8300000, guid: 1605f355cb3540943ac60d7eed742c7d, type: 3}
+  Mu: {fileID: 8300000, guid: f7b6d230221db124484704e965109b2b, type: 3}
+  Me: {fileID: 8300000, guid: 3caba4ab077a58141bc6c2467a6cd61c, type: 3}
+  Mo: {fileID: 8300000, guid: 40e76acf622851f49ac68529bd190349, type: 3}
+  Ya: {fileID: 8300000, guid: 39646de6852b6fa4e841a812203d4b23, type: 3}
+  Yu: {fileID: 8300000, guid: 06af2d8b568c0c64f85790b2acac3b83, type: 3}
+  Yo: {fileID: 8300000, guid: 24e57fd1002b1b64e80459f83afd763b, type: 3}
+  Ra: {fileID: 8300000, guid: b206d7d59e8bf2347babc1e4ac75c3e2, type: 3}
+  Ri: {fileID: 8300000, guid: 07e1a98f80bbdb74fbec59d800362049, type: 3}
+  Ru: {fileID: 8300000, guid: cffa3508c0b0f5d41bfea6b2725d6f1f, type: 3}
+  Re: {fileID: 8300000, guid: 97ace9fe74106bf4c9fd84d2042b3ad9, type: 3}
+  Ro: {fileID: 8300000, guid: 12fb7d9e427923041bba444e0c604a49, type: 3}
+  Wa: {fileID: 8300000, guid: 29928e59ff104fe459eccef5becbe473, type: 3}
+  Wo: {fileID: 8300000, guid: c3bf5d81cd27dd345bc8d65995b8be48, type: 3}
+  N: {fileID: 8300000, guid: e63d0305ad32e45498bd40c003fc7b9a, type: 3}

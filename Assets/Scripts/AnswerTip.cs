@@ -32,7 +32,7 @@ public class AnswerTip : MonoBehaviour
     /// 与这组答案有关的提示
     /// </summary>
     [Header("与这组答案相关的提示")]
-    public List<string> tips;
+    public List<KanaTip> kanaTips;
 
     System.Random rand = new System.Random();
     // Start is called before the first frame update
@@ -82,11 +82,11 @@ public class AnswerTip : MonoBehaviour
 
     public IEnumerable<string> RandomTip()
     {
-        if (tips.Count < 1)
+        if (kanaTips.Count < 1)
         {
             yield return "";
         }
-        var randIndex = rand.Next(0, tips.Count);
-        yield return tips[randIndex];
+        var randIndex = rand.Next(0, kanaTips.Count);
+        yield return kanaTips[randIndex].RandomTip();
     }
 }

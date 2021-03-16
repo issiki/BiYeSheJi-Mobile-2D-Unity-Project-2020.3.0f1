@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [ExecuteInEditMode]
 public class KanaPronunciation : MonoBehaviour
@@ -449,6 +450,11 @@ public class KanaPronunciation : MonoBehaviour
                 Play(N);
                 break;
         }
+    }
+
+    public void Play(Text textComp)
+    {
+        Play(textComp.text);
     }
 
     public void Play()
