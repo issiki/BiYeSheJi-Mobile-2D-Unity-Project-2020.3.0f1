@@ -1,8 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using System;
 using System.Linq;
+using UnityEngine;
 
 [ExecuteInEditMode]
 public class AnswerTip : MonoBehaviour
@@ -24,22 +22,12 @@ public class AnswerTip : MonoBehaviour
     public string a;
 
     /// <summary>
-    /// 随机的答案
-    /// </summary>
-    //public string[] a;
-
-    /// <summary>
     /// 与这组答案有关的提示
     /// </summary>
     [Header("与这组答案相关的提示")]
     public List<KanaTip> kanaTips;
 
     System.Random rand = new System.Random();
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -51,21 +39,7 @@ public class AnswerTip : MonoBehaviour
             questions[0] = gameObject.name;
         }
 #endif
-
-
     }
-
-    /*
-    public IEnumerable<string> RandomQuestion()
-    {
-        if (answers.Count < 1)
-        {
-            yield return "";
-        }
-        var randIndex = rand.Next(0, answers.Count);
-        yield return answers[randIndex];
-    }
-    */
 
     /// <summary>
     /// 出题后，q和a可用

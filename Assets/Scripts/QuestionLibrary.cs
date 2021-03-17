@@ -1,9 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
-using System.Linq;
 
 public class QuestionLibrary : MonoBehaviour
 {
@@ -57,12 +55,6 @@ public class QuestionLibrary : MonoBehaviour
         NewQuestion();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void NewQuestion()
     {
         aText.enabled = false;
@@ -105,37 +97,6 @@ public class QuestionLibrary : MonoBehaviour
         }
     }
 
-    /*
-    public void Judge()
-    {
-        for (var i = 0; i < optionButtons.Count; i++)
-        {
-            var button = optionButtons[i];
-            ///锁定按钮，防止继续点
-            button.LockButton();
-
-            if (button.isChecked)
-            {
-                if (button.content == a)
-                {
-                    //button.Right();
-                    Debug.Log("选择了正确的答案");
-                }
-                else
-                {
-                    //button.Wrong();
-                    Debug.Log("选择了错误的答案");
-                }
-            }
-            else
-            {
-                // button.NotCheck();
-                Debug.Log("没有选择此项");
-            }
-        }
-    }
-    */
-
     public void JudgeChoise(OptionButton optionButton)
     {
         JudgeChoise(optionButton.content);
@@ -166,27 +127,6 @@ public class QuestionLibrary : MonoBehaviour
             var button = optionButtons[i];
             ///锁定按钮，防止继续点
             button.LockButton();
-
-            /*
-            if (button.isChecked)
-            {
-                if (button.content == a)
-                {
-                    //button.Right();
-                    Debug.Log("选择了正确的答案");
-                }
-                else
-                {
-                    //button.Wrong();
-                    Debug.Log("选择了错误的答案");
-                }
-            }
-            else
-            {
-                // button.NotCheck();
-                Debug.Log("没有选择此项");
-            }
-            */
         }
     }
 }

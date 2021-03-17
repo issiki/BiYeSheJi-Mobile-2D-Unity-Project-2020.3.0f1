@@ -461,7 +461,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 400, y: 480}
+  m_ReferenceResolution: {x: 600, y: 480}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
@@ -5000,7 +5000,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 13300
+  m_Text: 400
 --- !u!222 &1332709931
 CanvasRenderer:
   m_ObjectHideFlags: 0
